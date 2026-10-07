@@ -1,0 +1,1 @@
+{"ok":false,"generated_at":"2026-10-07T11:42:47.009024Z","source":"Bybit V5 public API","error":"https://api.bybit.com/v5/market/instruments-info?category=spot&status=Trading: HTTP Error 403: Forbidden"}
