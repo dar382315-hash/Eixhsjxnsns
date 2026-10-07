@@ -1,0 +1,58 @@
+name: Bybit Spot Radar
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "3,13,23,33,43,53 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bybit-spot-radar
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run Bybit scanner
+        id: scan
+        continue-on-error: true
+        timeout-minutes: 8
+        run: python scanner.py
+
+      - name: Save scanner result
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if [ -d "data" ]; then
+            git add -A data/ || true
+          fi
+
+          if ! git diff --cached --quiet; then
+            git commit -m "radar: update Bybit Spot data"
+
+            git pull --rebase origin "${GITHUB_REF_NAME}" || {
+              echo "Failed to rebase before push"
+              exit 1
+            }
+
+            git push
+          fi
+
+      - name: Mark scan as failed
+        if: steps.scan.outcome == 'failure'
+        run: exit 1
