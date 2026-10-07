@@ -10,7 +10,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-API = "https://api.bybit.com"
+API_BASES = ("https://api.bybit.com", "https://api.bytick.com")
 OUT = Path("data")
 
 WORKERS = 16
@@ -32,6 +32,8 @@ _rate_lock = threading.Lock()
 _next_request_at = 0.0
 _times_lock = threading.Lock()
 _bybit_times = []
+_endpoint_lock = threading.Lock()
+_endpoint_hits = {}
 
 
 def now_utc():
@@ -61,51 +63,61 @@ def throttle():
 
 def bybit_get(path, params=None):
     query = urllib.parse.urlencode(params or {})
-    url = API + path + (("?" + query) if query else "")
     last_error = None
+    attempted = []
 
     for attempt in range(RETRIES):
-        throttle()
-        try:
-            request = urllib.request.Request(
-                url,
-                headers={
-                    "Accept": "application/json",
-                    "User-Agent": "bybit-spot-radar/1.0",
-                    "Cache-Control": "no-cache",
-                    "Pragma": "no-cache",
-                },
-            )
-            with urllib.request.urlopen(request, timeout=TIMEOUT_SECONDS) as response:
-                payload = json.loads(response.read().decode("utf-8"))
-
-            if payload.get("retCode") != 0:
-                raise RuntimeError(
-                    f"Bybit retCode={payload.get('retCode')} retMsg={payload.get('retMsg')}"
+        for base in API_BASES:
+            url = base + path + (("?" + query) if query else "")
+            attempted.append(url)
+            throttle()
+            try:
+                request = urllib.request.Request(
+                    url,
+                    headers={
+                        "Accept": "application/json",
+                        "User-Agent": "bybit-spot-radar/1.1",
+                        "Cache-Control": "no-cache",
+                        "Pragma": "no-cache",
+                    },
                 )
+                with urllib.request.urlopen(request, timeout=TIMEOUT_SECONDS) as response:
+                    payload = json.loads(response.read().decode("utf-8"))
 
-            server_ms = int(payload.get("time") or 0)
-            if server_ms:
-                skew = abs(time.time() - server_ms / 1000)
-                if skew > MAX_SERVER_SKEW_SECONDS:
-                    raise RuntimeError(f"stale Bybit server time: skew={skew:.1f}s")
-                with _times_lock:
-                    _bybit_times.append(server_ms)
+                if payload.get("retCode") != 0:
+                    raise RuntimeError(
+                        f"Bybit retCode={payload.get('retCode')} retMsg={payload.get('retMsg')}"
+                    )
 
-            return payload
+                server_ms = int(payload.get("time") or 0)
+                if server_ms:
+                    skew = abs(time.time() - server_ms / 1000)
+                    if skew > MAX_SERVER_SKEW_SECONDS:
+                        raise RuntimeError(f"stale Bybit server time: skew={skew:.1f}s")
+                    with _times_lock:
+                        _bybit_times.append(server_ms)
 
-        except (
-            urllib.error.URLError,
-            urllib.error.HTTPError,
-            TimeoutError,
-            RuntimeError,
-            json.JSONDecodeError,
-        ) as exc:
-            last_error = exc
-            if attempt + 1 < RETRIES:
-                time.sleep(min(8.0, 0.75 * (2 ** attempt)))
+                with _endpoint_lock:
+                    _endpoint_hits[base] = _endpoint_hits.get(base, 0) + 1
 
-    raise RuntimeError(f"{url}: {last_error}")
+                return payload
+
+            except (
+                urllib.error.URLError,
+                urllib.error.HTTPError,
+                TimeoutError,
+                RuntimeError,
+                json.JSONDecodeError,
+            ) as exc:
+                last_error = f"{base}: {exc}"
+
+        if attempt + 1 < RETRIES:
+            time.sleep(min(8.0, 0.75 * (2 ** attempt)))
+
+    raise RuntimeError(
+        "all official Bybit mainnet endpoints failed; "
+        f"last_error={last_error}; endpoints={list(API_BASES)}"
+    )
 
 
 def get_universe():
@@ -413,6 +425,8 @@ def main():
         "scan_started_at": started_wall.isoformat().replace("+00:00", "Z"),
         "scan_duration_seconds": round(elapsed, 2),
         "source": "Bybit V5 public API",
+        "official_api_endpoints": list(API_BASES),
+        "api_endpoint_hits": dict(_endpoint_hits),
         "universe_rule": "category=spot,status=Trading,quoteCoin=USDT",
         "total_active_usdt_spot": len(symbols),
         "ticker_coverage": f"{len(matched)}/{len(symbols)}",
@@ -458,6 +472,8 @@ if __name__ == "__main__":
             "ok": False,
             "generated_at": now_utc().isoformat().replace("+00:00", "Z"),
             "source": "Bybit V5 public API",
+            "official_api_endpoints": list(API_BASES),
+            "api_endpoint_hits": dict(_endpoint_hits),
             "error": str(exc),
         }
         write_json(OUT / "status.json", failure)
