@@ -10,7 +10,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-API_BASES = ("https://api.bybit.com", "https://api.bytick.com")
+API_BASES = ("https://api.bybit.com", "https://api.bytick.com", "https://api.bybit.eu")
 OUT = Path("data")
 
 WORKERS = 16
