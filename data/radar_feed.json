@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-07T20:14:04.308Z",
+  "generated_at_ms": 1791404044308,
+  "source": "Bybit V5 public API via Cloudflare Worker + D1",
+  "market_snapshot_updated_at_ms": 1791404034920,
+  "total_active_usdt_spot": 392,
+  "trade_universe": 382,
+  "excluded_count": 10,
+  "excluded_symbols": [
+    "USDCUSDT",
+    "PYUSDUSDT",
+    "USDYUSDT",
+    "USDEUSDT",
+    "USDTBUSDT",
+    "USD1USDT",
+    "XUSDUSDT",
+    "FRAXUSDT",
+    "USATUSDT",
+    "USDSUSDT"
+  ],
+  "matched": 382,
+  "health": {
+    "ok": true,
+    "source": "Bybit V5 public API",
+    "storage": "Cloudflare D1",
+    "total_active_usdt_spot": 392,
+    "trade_universe": 382,
+    "excluded_count": 10,
+    "excluded_symbols": [
+      "USDCUSDT",
+      "PYUSDUSDT",
+      "USDYUSDT",
+      "USDEUSDT",
+      "USDTBUSDT",
+      "USD1USDT",
+      "XUSDUSDT",
+      "FRAXUSDT",
+      "USATUSDT",
+      "USDSUSDT"
+    ],
+    "ticker_coverage": "382/382",
+    "kline_coverage": "382/382",
+    "indicator_coverage": "272/382",
+    "market_age_seconds": 11,
+    "bybit_server_time_ms": 1791404034919,
+    "last_run": {
+      "ok": true,
+      "cron": "1,11,21,31,41,51 * * * *",
+      "type": "bars",
+      "finished_at_ms": 1791403923436,
+      "duration_ms": 8664,
+      "bars_refreshed": 35,
+      "bar_errors": []
+    }
+  },
+  "top": {
+    "opportunity": [],
+    "anomaly": [],
+    "risk": []
+  }
+}
