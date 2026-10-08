@@ -1,112 +1,25 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-08T20:35:57.024Z",
-  "generated_at_ms": 1791491757024,
+  "generated_at": "2026-10-08T20:45:56.002Z",
+  "generated_at_ms": 1791492356002,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
-  "top": [
-    {
-      "symbol": "SOSOUSDT",
-      "last_price": 0.365,
-      "bid": 0.3644,
-      "ask": 0.3653,
-      "spread_bps": 24.667671645882198,
-      "turnover_24h": 527389.995975,
-      "relative_turnover": 2.1748759844252383,
-      "change_10m_pct": 1.558,
-      "change_30m_pct": 2.528,
-      "change_60m_pct": 3.341,
-      "change_24h_pct": 12.2,
-      "early_score": 6.954,
-      "status": "early_breakout_watch",
-      "confirmed": true,
-      "m5": {
-        "candle_start_ms": 1791491400000,
-        "interval_minutes": 5,
-        "closed_candle_change_pct": 0.384,
-        "turnover_vs_prev_12": 0.99,
-        "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.3644
-      },
-      "m15": {
-        "candle_start_ms": 1791490500000,
-        "interval_minutes": 15,
-        "closed_candle_change_pct": 2.101,
-        "turnover_vs_prev_12": 3.25,
-        "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.3592
-      }
-    },
-    {
-      "symbol": "BRUSDT",
-      "last_price": 0.54447,
-      "bid": 0.54382,
-      "ask": 0.54415,
-      "spread_bps": 6.066343741096767,
-      "turnover_24h": 2953085.85755,
-      "relative_turnover": 0.62966162486375,
-      "change_10m_pct": 1.9,
-      "change_30m_pct": -0.675,
-      "change_60m_pct": -2.127,
-      "change_24h_pct": 5.99,
-      "early_score": 5.275,
-      "status": "watch",
-      "confirmed": false,
-      "m5": {
-        "candle_start_ms": 1791491400000,
-        "interval_minutes": 5,
-        "closed_candle_change_pct": 0.29,
-        "turnover_vs_prev_12": 0.27,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.56238
-      },
-      "m15": {
-        "candle_start_ms": 1791490500000,
-        "interval_minutes": 15,
-        "closed_candle_change_pct": 0.933,
-        "turnover_vs_prev_12": 0.77,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.56663
-      }
-    }
-  ],
-  "confirmed_count": 1,
+  "top": [],
+  "confirmed_count": 0,
   "pattern_watch": {
     "engine_version": "2.3.0-shadow",
     "source": "bounded_cached_closed_1h_bars",
     "status": "partial_rolling_scan",
     "universe_checked": 380,
-    "batch_scanned": 15,
-    "rolling_scanned": 115,
+    "batch_scanned": 14,
+    "rolling_scanned": 128,
     "rolling_window_hours": 6,
-    "fresh_h1_coverage": 15,
-    "continuous_h1_coverage": 15,
+    "fresh_h1_coverage": 14,
+    "continuous_h1_coverage": 14,
     "invalid_or_stale_h1": 0,
-    "eligible_patterns_found": 1,
-    "top": [
-      {
-        "symbol": "BRUSDT",
-        "price_at_snapshot": 0.54986,
-        "change_24h_pct": 6.34,
-        "spread_bps": 6.73,
-        "turnover_24h": 2901689.3161,
-        "h1_last_closed_ms": 1791486000000,
-        "h1_bars_updated_at_ms": 1791484915620,
-        "pattern_score": 3.096,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
-          {
-            "type": "range_breakout",
-            "phase": "unconfirmed_volume",
-            "level": 0.52669,
-            "volume_ratio": 1.04,
-            "bar_close_pct": 3.285
-          }
-        ]
-      }
-    ],
+    "eligible_patterns_found": 0,
+    "top": [],
     "shadow_only": true,
     "has_validated_edge": false,
     "note": "Partial/batched H1 coverage. Counts are batch or rolling coverage, not full-universe fresh indicator coverage."
