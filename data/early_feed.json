@@ -1,0 +1,10 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-10-08T12:43:57.434Z",
+  "generated_at_ms": 1791463437434,
+  "source": "Bybit V5 / Cloudflare D1",
+  "universe_checked": 380,
+  "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
+  "top": [],
+  "confirmed_count": 0
+}
