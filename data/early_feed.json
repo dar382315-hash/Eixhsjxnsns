@@ -1,107 +1,28 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-08T17:13:56.564Z",
-  "generated_at_ms": 1791479636564,
+  "generated_at": "2026-10-08T19:05:55.681Z",
+  "generated_at_ms": 1791486355681,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
-  "top": [
-    {
-      "symbol": "TIAUSDT",
-      "last_price": 0.4695,
-      "bid": 0.4694,
-      "ask": 0.4697,
-      "spread_bps": 6.389095942924555,
-      "turnover_24h": 2327695.862858,
-      "relative_turnover": 1.5395850319414714,
-      "change_10m_pct": 1.251,
-      "change_30m_pct": 1.557,
-      "change_60m_pct": null,
-      "change_24h_pct": 6.370000000000001,
-      "early_score": 5.425,
-      "status": "watch",
-      "confirmed": false,
-      "m5": {
-        "candle_start_ms": 1791479100000,
-        "interval_minutes": 5,
-        "closed_candle_change_pct": 0.086,
-        "turnover_vs_prev_12": 0.58,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.4666
-      },
-      "m15": {
-        "candle_start_ms": 1791477900000,
-        "interval_minutes": 15,
-        "closed_candle_change_pct": -0.195,
-        "turnover_vs_prev_12": 1.33,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.4994
-      }
-    },
-    {
-      "symbol": "METUSDT",
-      "last_price": 0.4422,
-      "bid": 0.4411,
-      "ask": 0.4414,
-      "spread_bps": 6.7988668555245875,
-      "turnover_24h": 34225580.02551,
-      "relative_turnover": 11.062110782894596,
-      "change_10m_pct": 0.959,
-      "change_30m_pct": 0.798,
-      "change_60m_pct": null,
-      "change_24h_pct": 18.93,
-      "early_score": 2.528,
-      "status": "watch",
-      "confirmed": false,
-      "m5": {
-        "candle_start_ms": 1791479100000,
-        "interval_minutes": 5,
-        "closed_candle_change_pct": -0.411,
-        "turnover_vs_prev_12": 0.32,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.4488
-      },
-      "m15": {
-        "candle_start_ms": 1791477900000,
-        "interval_minutes": 15,
-        "closed_candle_change_pct": -0.546,
-        "turnover_vs_prev_12": 0.43,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.4681
-      }
-    }
-  ],
+  "top": [],
   "confirmed_count": 0,
   "pattern_watch": {
     "engine_version": "2.3.0-shadow",
-    "source": "cached_closed_1h_bars",
+    "source": "bounded_cached_closed_1h_bars",
+    "status": "partial_rolling_scan",
     "universe_checked": 380,
-    "fresh_h1_coverage": 380,
-    "continuous_h1_coverage": 380,
+    "batch_scanned": 14,
+    "rolling_scanned": 14,
+    "rolling_window_hours": 6,
+    "fresh_h1_coverage": 0,
+    "continuous_h1_coverage": 0,
     "invalid_or_stale_h1": 0,
     "eligible_patterns_found": 0,
     "top": [],
     "shadow_only": true,
-    "has_validated_edge": false
-  },
-  "pattern_learning": {
-    "status": "research_only",
-    "adaptive_weights_enabled": false,
-    "enables_trading": false,
-    "reward_rule": "+1 if gross +8% reached first; -1 if gross -4% reached first; 0 if neither in 24 completed future 1h bars",
-    "assumed_cost_per_side_pct": 0.15,
-    "actual_fill_verified": false,
-    "newly_recorded": 0,
-    "newly_evaluated": 0,
-    "newly_unscorable": 0,
-    "newly_evaluated_7d": 0,
-    "counts": {
-      "pending": 10
-    },
-    "by_pattern": [],
-    "goal_7d_rule": "+1 if gross +30% reached first; -1 if gross -12% reached first; 0 if neither within 168 complete future 1h bars",
-    "goal_7d_by_pattern": [],
-    "note": "Observational tracking of selected top-ranked watches; no baseline, no proof of profitability, no live threshold adaptation."
+    "has_validated_edge": false,
+    "note": "Partial/batched H1 coverage. Counts are batch or rolling coverage, not full-universe fresh indicator coverage."
   },
   "ai_review": {
     "status": "no_new_qualified_candidate",
@@ -116,41 +37,5 @@
     "sent_symbols": [],
     "results": [],
     "latest": null
-  },
-  "ai_learning": {
-    "status": "research_only",
-    "version": "2.4.2",
-    "adaptive_weights_enabled": false,
-    "enables_trading": false,
-    "updates": {
-      "evaluated_24h": 0,
-      "evaluated_7d": 0,
-      "no_entry": 0,
-      "ambiguous": 0,
-      "unscorable": 0
-    },
-    "newly_evaluated_24h": 0,
-    "newly_evaluated_7d": 0,
-    "newly_unscorable": 0,
-    "states_24h": [],
-    "conditional_paper_24h": [],
-    "methodology": "Only CONDITIONAL observations. Full closed H1 candle confirms trigger; assume next H1 open paper entry; model technical target/stop; 24h and 7d from observation. No trigger=no entry. Both touched same hour=ambiguous. Gap>2%=skip. 0.30% illustrative round-trip costs. Not actual fill or validated profitability."
-  },
-  "ai_decision_learning": {
-    "status": "research_only",
-    "adaptive_weights_enabled": false,
-    "enables_trading": false,
-    "newly_evaluated_24h": 0,
-    "newly_evaluated_7d": 0,
-    "newly_unscorable": 0,
-    "states": [
-      {
-        "verdict": "SKIP",
-        "state": "pending",
-        "n": 1
-      }
-    ],
-    "by_verdict_24h": [],
-    "evaluation_definition": "24h +8/-4 and 7d +30/-12 evaluated from Bybit ask snapshot, not conditional entry fills. Does NOT measure actual strategy P&L. Costs assumed 0.15% per side. Only contiguous complete H1 bars. No performance claim."
   }
 }
