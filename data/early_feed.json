@@ -1,76 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-08T20:55:56.307Z",
-  "generated_at_ms": 1791492956307,
+  "generated_at": "2026-10-08T21:05:55.725Z",
+  "generated_at_ms": 1791493555725,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
-  "top": [
-    {
-      "symbol": "BRUSDT",
-      "last_price": 0.54362,
-      "bid": 0.54415,
-      "ask": 0.54452,
-      "spread_bps": 6.7972847603035165,
-      "turnover_24h": 2952003.49029,
-      "relative_turnover": 0.629430840809203,
-      "change_10m_pct": 1.763,
-      "change_30m_pct": 1.741,
-      "change_60m_pct": -1.135,
-      "change_24h_pct": 6.74,
-      "early_score": 6.155,
-      "status": "watch",
-      "confirmed": false,
-      "m5": {
-        "candle_start_ms": 1791492600000,
-        "interval_minutes": 5,
-        "closed_candle_change_pct": 1.64,
-        "turnover_vs_prev_12": 0.27,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.55555
-      },
-      "m15": {
-        "candle_start_ms": 1791491400000,
-        "interval_minutes": 15,
-        "closed_candle_change_pct": -0.883,
-        "turnover_vs_prev_12": 0.45,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.56663
-      }
-    },
-    {
-      "symbol": "PYTHUSDT",
-      "last_price": 0.08358,
-      "bid": 0.08346,
-      "ask": 0.08357,
-      "spread_bps": 13.171286595222293,
-      "turnover_24h": 1588202.3799058,
-      "relative_turnover": 2.257256981626979,
-      "change_10m_pct": 2.001,
-      "change_30m_pct": 0.048,
-      "change_60m_pct": 2.452,
-      "change_24h_pct": 14.97,
-      "early_score": 4.696,
-      "status": "watch",
-      "confirmed": false,
-      "m5": {
-        "candle_start_ms": 1791492600000,
-        "interval_minutes": 5,
-        "closed_candle_change_pct": 0.736,
-        "turnover_vs_prev_12": 0.32,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.08376
-      },
-      "m15": {
-        "candle_start_ms": 1791491400000,
-        "interval_minutes": 15,
-        "closed_candle_change_pct": -1.694,
-        "turnover_vs_prev_12": 1.29,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.08376
-      }
-    }
-  ],
+  "top": [],
   "confirmed_count": 0,
   "pattern_watch": {
     "engine_version": "2.3.0-shadow",
@@ -78,10 +13,10 @@
     "status": "partial_rolling_scan",
     "universe_checked": 380,
     "batch_scanned": 14,
-    "rolling_scanned": 128,
+    "rolling_scanned": 140,
     "rolling_window_hours": 6,
-    "fresh_h1_coverage": 14,
-    "continuous_h1_coverage": 14,
+    "fresh_h1_coverage": 12,
+    "continuous_h1_coverage": 12,
     "invalid_or_stale_h1": 0,
     "eligible_patterns_found": 0,
     "top": [],
