@@ -1,65 +1,33 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-09T11:15:11.613Z",
-  "generated_at_ms": 1791544511613,
+  "generated_at": "2026-10-09T11:25:11.269Z",
+  "generated_at_ms": 1791545111269,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
   "top": [
     {
-      "symbol": "GMXUSDT",
-      "last_price": 8.423,
-      "bid": 8.411,
-      "ask": 8.423,
-      "spread_bps": 14.256861114411851,
-      "turnover_24h": 509064.33093,
-      "relative_turnover": 2.4031034242105282,
-      "change_10m_pct": 1.141,
-      "change_30m_pct": 1.032,
-      "change_60m_pct": 0.802,
-      "change_24h_pct": 2.9499999999999997,
-      "early_score": 5.326,
-      "status": "early_breakout_watch",
-      "confirmed": true,
-      "m5": {
-        "candle_start_ms": 1791544200000,
-        "interval_minutes": 5,
-        "closed_candle_change_pct": 0.86,
-        "turnover_vs_prev_12": 27.14,
-        "broke_prev_12_high": true,
-        "resistance_prev_12_high": 8.373
-      },
-      "m15": {
-        "candle_start_ms": 1791543600000,
-        "interval_minutes": 15,
-        "closed_candle_change_pct": 1.247,
-        "turnover_vs_prev_12": 4.69,
-        "broke_prev_12_high": true,
-        "resistance_prev_12_high": 8.395
-      }
-    },
-    {
       "symbol": "XDCUSDT",
-      "last_price": 0.03474,
-      "bid": 0.03474,
-      "ask": 0.03477,
-      "spread_bps": 8.631851532154293,
-      "turnover_24h": 2206075.575545,
-      "relative_turnover": 1.5591893706693725,
-      "change_10m_pct": 1.018,
-      "change_30m_pct": 0.813,
-      "change_60m_pct": 0.086,
-      "change_24h_pct": 7.35,
-      "early_score": 4.332,
+      "last_price": 0.03521,
+      "bid": 0.0352,
+      "ask": 0.03521,
+      "spread_bps": 2.8405056099974786,
+      "turnover_24h": 2231150.267426,
+      "relative_turnover": 1.576911425836955,
+      "change_10m_pct": 1.353,
+      "change_30m_pct": 2.803,
+      "change_60m_pct": 2.088,
+      "change_24h_pct": 8.709999999999999,
+      "early_score": 6.627,
       "status": "early_breakout_watch",
       "confirmed": true,
       "m5": {
-        "candle_start_ms": 1791544200000,
+        "candle_start_ms": 1791544800000,
         "interval_minutes": 5,
-        "closed_candle_change_pct": 0.979,
-        "turnover_vs_prev_12": 1.1,
+        "closed_candle_change_pct": 0.17,
+        "turnover_vs_prev_12": 0.43,
         "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.03484
+        "resistance_prev_12_high": 0.03531
       },
       "m15": {
         "candle_start_ms": 1791543600000,
@@ -71,52 +39,76 @@
       }
     },
     {
-      "symbol": "QNTUSDT",
-      "last_price": 245.95,
-      "bid": 245.97,
-      "ask": 245.98,
-      "spread_bps": 0.40654538062774287,
-      "turnover_24h": 8643659.97345,
-      "relative_turnover": 0.6423561063214395,
-      "change_10m_pct": 1.014,
-      "change_30m_pct": 1.423,
-      "change_60m_pct": 0.204,
-      "change_24h_pct": 4.859999999999999,
-      "early_score": 4.224,
+      "symbol": "IMXUSDT",
+      "last_price": 0.1863,
+      "bid": 0.1855,
+      "ask": 0.1858,
+      "spread_bps": 16.15943980608644,
+      "turnover_24h": 567514.203717,
+      "relative_turnover": 2.8452058995260896,
+      "change_10m_pct": 0.976,
+      "change_30m_pct": 0.269,
+      "change_60m_pct": -1.272,
+      "change_24h_pct": 7.249999999999999,
+      "early_score": 4.613,
       "status": "watch",
       "confirmed": false,
       "m5": {
-        "candle_start_ms": 1791544200000,
+        "candle_start_ms": 1791544800000,
         "interval_minutes": 5,
-        "closed_candle_change_pct": 0.573,
-        "turnover_vs_prev_12": 2.53,
+        "closed_candle_change_pct": 0.215,
+        "turnover_vs_prev_12": 0.21,
         "broke_prev_12_high": false,
-        "resistance_prev_12_high": 246.1
+        "resistance_prev_12_high": 0.1887
       },
       "m15": {
         "candle_start_ms": 1791543600000,
         "interval_minutes": 15,
-        "closed_candle_change_pct": 1.252,
-        "turnover_vs_prev_12": 2.04,
+        "closed_candle_change_pct": -0.431,
+        "turnover_vs_prev_12": 0.48,
         "broke_prev_12_high": false,
-        "resistance_prev_12_high": 246.1
+        "resistance_prev_12_high": 0.1948
       }
     }
   ],
-  "confirmed_count": 2,
+  "confirmed_count": 1,
   "pattern_watch": {
     "engine_version": "2.3.0-shadow",
     "source": "bounded_cached_closed_1h_bars",
     "status": "partial_rolling_scan",
     "universe_checked": 380,
-    "batch_scanned": 13,
-    "rolling_scanned": 314,
+    "batch_scanned": 15,
+    "rolling_scanned": 327,
     "rolling_window_hours": 6,
-    "fresh_h1_coverage": 13,
-    "continuous_h1_coverage": 13,
+    "fresh_h1_coverage": 14,
+    "continuous_h1_coverage": 14,
     "invalid_or_stale_h1": 0,
-    "eligible_patterns_found": 12,
+    "eligible_patterns_found": 18,
     "top": [
+      {
+        "symbol": "ETHUSDT",
+        "price_at_snapshot": 2490.49,
+        "change_24h_pct": -1.8499999999999999,
+        "spread_bps": 0.04,
+        "turnover_24h": 291470441.7160275,
+        "h1_last_closed_ms": 1791543600000,
+        "h1_bars_updated_at_ms": 1791541760767,
+        "pattern_score": 3.3,
+        "status": "research_watch",
+        "confirmed": false,
+        "patterns": [
+          {
+            "type": "volatility_squeeze",
+            "phase": "forming",
+            "level": 2508.93,
+            "volume_ratio": 0.33,
+            "range_last8_pct": 0.99,
+            "range_prior8a_pct": 2.28,
+            "range_prior8b_pct": 5.84,
+            "lower_level": 2484.13
+          }
+        ]
+      },
       {
         "symbol": "ENAUSDT",
         "price_at_snapshot": 0.21442,
@@ -162,6 +154,27 @@
             "range_prior8a_pct": 4.21,
             "range_prior8b_pct": 8.69,
             "lower_level": 0.08438
+          }
+        ]
+      },
+      {
+        "symbol": "XDCUSDT",
+        "price_at_snapshot": 0.03474,
+        "change_24h_pct": 7.35,
+        "spread_bps": 8.63,
+        "turnover_24h": 2206075.575545,
+        "h1_last_closed_ms": 1791543600000,
+        "h1_bars_updated_at_ms": 1791542492781,
+        "pattern_score": 3.258,
+        "status": "research_watch",
+        "confirmed": false,
+        "patterns": [
+          {
+            "type": "breakout_retest",
+            "phase": "watch_retest",
+            "level": 0.03422,
+            "volume_ratio": 0.41,
+            "breakout_candle_ms": 1791529200000
           }
         ]
       },
@@ -214,97 +227,59 @@
         ]
       },
       {
-        "symbol": "EIGENUSDT",
-        "price_at_snapshot": 0.2232,
-        "change_24h_pct": -4.78,
-        "spread_bps": 8.97,
-        "turnover_24h": 1512008.2225,
+        "symbol": "FILUSDT",
+        "price_at_snapshot": 1.0716,
+        "change_24h_pct": -0.42,
+        "spread_bps": 1.87,
+        "turnover_24h": 2428645.706929,
         "h1_last_closed_ms": 1791543600000,
-        "h1_bars_updated_at_ms": 1791540552757,
-        "pattern_score": 2.491,
+        "h1_bars_updated_at_ms": 1791542358765,
+        "pattern_score": 2.868,
         "status": "research_watch",
         "confirmed": false,
         "patterns": [
           {
             "type": "volatility_squeeze",
             "phase": "forming",
-            "level": 0.2301,
-            "volume_ratio": 0.11,
-            "range_last8_pct": 2.6,
-            "range_prior8a_pct": 4.46,
-            "range_prior8b_pct": 11.32,
-            "lower_level": 0.2242
-          }
-        ]
-      },
-      {
-        "symbol": "COINXUSDT",
-        "price_at_snapshot": 175.7,
-        "change_24h_pct": -0.95,
-        "spread_bps": 1.71,
-        "turnover_24h": 1032293.3882,
-        "h1_last_closed_ms": 1791540000000,
-        "h1_bars_updated_at_ms": 1791541159036,
-        "pattern_score": 2.398,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
-          {
-            "type": "volatility_squeeze",
-            "phase": "near_resistance",
-            "level": 176.5,
-            "volume_ratio": 0.03,
-            "range_last8_pct": 1.24,
-            "range_prior8a_pct": 2.23,
-            "range_prior8b_pct": 3.79,
-            "lower_level": 174.33
-          }
-        ]
-      },
-      {
-        "symbol": "ENSUSDT",
-        "price_at_snapshot": 6.161,
-        "change_24h_pct": -6.75,
-        "spread_bps": 3.25,
-        "turnover_24h": 758936.202137,
-        "h1_last_closed_ms": 1791543600000,
-        "h1_bars_updated_at_ms": 1791542484663,
-        "pattern_score": 2.349,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
+            "level": 1.1007,
+            "volume_ratio": 0.84,
+            "range_last8_pct": 3.19,
+            "range_prior8a_pct": 6.53,
+            "range_prior8b_pct": 11.42,
+            "lower_level": 1.0661
+          },
           {
             "type": "bull_flag",
             "phase": "forming",
-            "level": 6.325,
-            "volume_ratio": 0.22,
-            "pole_pct": 5.7,
-            "retracement_fraction": 0.146,
+            "level": 1.1007,
+            "volume_ratio": 0.84,
+            "pole_pct": 9.39,
+            "retracement_fraction": 0.182,
             "flag_length_bars": 7
           }
         ]
       },
       {
-        "symbol": "CARVUSDT",
-        "price_at_snapshot": 0.04306,
-        "change_24h_pct": -3.3000000000000003,
-        "spread_bps": 6.97,
-        "turnover_24h": 925509.0259077,
+        "symbol": "ETHFIUSDT",
+        "price_at_snapshot": 0.6941,
+        "change_24h_pct": -4.08,
+        "spread_bps": 2.88,
+        "turnover_24h": 2290837.452601,
         "h1_last_closed_ms": 1791540000000,
-        "h1_bars_updated_at_ms": 1791540553659,
-        "pattern_score": 2.298,
+        "h1_bars_updated_at_ms": 1791539960386,
+        "pattern_score": 2.732,
         "status": "research_watch",
         "confirmed": false,
         "patterns": [
           {
             "type": "volatility_squeeze",
             "phase": "forming",
-            "level": 0.04393,
-            "volume_ratio": 1.28,
-            "range_last8_pct": 3.12,
-            "range_prior8a_pct": 5.66,
-            "range_prior8b_pct": 7.71,
-            "lower_level": 0.04258
+            "level": 0.7236,
+            "volume_ratio": 0.37,
+            "range_last8_pct": 5.71,
+            "range_prior8a_pct": 10.73,
+            "range_prior8b_pct": 19.51,
+            "lower_level": 0.6834
           }
         ]
       }
