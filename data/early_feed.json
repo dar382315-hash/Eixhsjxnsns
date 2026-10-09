@@ -1,60 +1,24 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-09T18:35:26.556Z",
-  "generated_at_ms": 1791570926556,
+  "generated_at": "2026-10-09T18:45:26.521Z",
+  "generated_at_ms": 1791571526521,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
-  "top": [
-    {
-      "symbol": "ZKUSDT",
-      "last_price": 0.014253,
-      "bid": 0.014246,
-      "ask": 0.014253,
-      "spread_bps": 4.912453068528764,
-      "turnover_24h": 2167723.49444273,
-      "relative_turnover": 2.345508484135897,
-      "change_10m_pct": 1.186,
-      "change_30m_pct": 1.844,
-      "change_60m_pct": 0.014,
-      "change_24h_pct": 29.04,
-      "early_score": -4.978,
-      "phase": "continuation",
-      "status": "watch",
-      "confirmed": false,
-      "m5": {
-        "candle_start_ms": 1791570600000,
-        "interval_minutes": 5,
-        "candle_age_seconds": 27,
-        "closed_candle_change_pct": 0.395,
-        "turnover_vs_prev_12": 0.88,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.014508
-      },
-      "m15": {
-        "candle_start_ms": 1791569700000,
-        "interval_minutes": 15,
-        "candle_age_seconds": 327,
-        "closed_candle_change_pct": 1.6,
-        "turnover_vs_prev_12": 0.44,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.014615
-      }
-    }
-  ],
+  "top": [],
   "confirmed_count": 0,
   "pattern_watch": {
     "engine_version": "2.3.0-shadow",
     "source": "bounded_cached_closed_1h_bars",
     "status": "partial_rolling_scan",
     "universe_checked": 380,
-    "batch_scanned": 11,
-    "rolling_scanned": 252,
+    "batch_scanned": 9,
+    "rolling_scanned": 260,
     "rolling_window_hours": 6,
-    "fresh_h1_coverage": 11,
-    "continuous_h1_coverage": 11,
+    "fresh_h1_coverage": 7,
+    "continuous_h1_coverage": 7,
     "invalid_or_stale_h1": 0,
-    "eligible_patterns_found": 3,
+    "eligible_patterns_found": 4,
     "top": [
       {
         "symbol": "CAPUSDT",
@@ -74,6 +38,30 @@
             "level": 0.07432,
             "volume_ratio": 1.19,
             "bar_close_pct": 0.915
+          }
+        ]
+      },
+      {
+        "symbol": "AEROUSDT",
+        "price_at_snapshot": 0.801,
+        "change_24h_pct": -1.55,
+        "spread_bps": 1.25,
+        "turnover_24h": 3277949.372439,
+        "h1_last_closed_ms": 1791568800000,
+        "h1_bars_updated_at_ms": 1791570570411,
+        "pattern_score": 2.904,
+        "status": "research_watch",
+        "confirmed": false,
+        "patterns": [
+          {
+            "type": "volatility_squeeze",
+            "phase": "forming",
+            "level": 0.8215,
+            "volume_ratio": 0.63,
+            "range_last8_pct": 3.37,
+            "range_prior8a_pct": 5.75,
+            "range_prior8b_pct": 7.34,
+            "lower_level": 0.7943
           }
         ]
       },
