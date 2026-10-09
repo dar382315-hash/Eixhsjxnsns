@@ -1,11 +1,172 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-09T14:45:10.799Z",
-  "generated_at_ms": 1791557110799,
+  "generated_at": "2026-10-09T14:55:12.028Z",
+  "generated_at_ms": 1791557712028,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
-  "top": [],
+  "top": [
+    {
+      "symbol": "SUSDT",
+      "last_price": 0.045,
+      "bid": 0.04499,
+      "ask": 0.04503,
+      "spread_bps": 8.886914019106504,
+      "turnover_24h": 1414971.791066,
+      "relative_turnover": 1.94942313445099,
+      "change_10m_pct": 1.672,
+      "change_30m_pct": 2.249,
+      "change_60m_pct": 0.559,
+      "change_24h_pct": 12.98,
+      "early_score": 6.589,
+      "status": "watch",
+      "confirmed": false,
+      "m5": {
+        "candle_start_ms": 1791557400000,
+        "interval_minutes": 5,
+        "closed_candle_change_pct": 0.828,
+        "turnover_vs_prev_12": 1.17,
+        "broke_prev_12_high": true,
+        "resistance_prev_12_high": 0.04482
+      },
+      "m15": {
+        "candle_start_ms": 1791556200000,
+        "interval_minutes": 15,
+        "closed_candle_change_pct": 1.829,
+        "turnover_vs_prev_12": 0.95,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.04561
+      }
+    },
+    {
+      "symbol": "SCRUSDT",
+      "last_price": 0.02647,
+      "bid": 0.02644,
+      "ask": 0.02648,
+      "spread_bps": 15.117157974300216,
+      "turnover_24h": 581271.240237,
+      "relative_turnover": 1.9892617125237055,
+      "change_10m_pct": 1.534,
+      "change_30m_pct": 1.262,
+      "change_60m_pct": 1.769,
+      "change_24h_pct": 3.4000000000000004,
+      "early_score": 6.146,
+      "status": "watch",
+      "confirmed": false,
+      "m5": {
+        "candle_start_ms": 1791557400000,
+        "interval_minutes": 5,
+        "closed_candle_change_pct": 0,
+        "turnover_vs_prev_12": 2.16,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.0264
+      },
+      "m15": {
+        "candle_start_ms": 1791556200000,
+        "interval_minutes": 15,
+        "closed_candle_change_pct": -0.496,
+        "turnover_vs_prev_12": 1.07,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.02623
+      }
+    },
+    {
+      "symbol": "STRKUSDT",
+      "last_price": 0.07423,
+      "bid": 0.0741,
+      "ask": 0.07417,
+      "spread_bps": 9.442233762730236,
+      "turnover_24h": 19250032.2384234,
+      "relative_turnover": 5.940409271071144,
+      "change_10m_pct": 2.245,
+      "change_30m_pct": 4.314,
+      "change_60m_pct": 3.284,
+      "change_24h_pct": 20.8,
+      "early_score": 5.926,
+      "status": "watch",
+      "confirmed": false,
+      "m5": {
+        "candle_start_ms": 1791557400000,
+        "interval_minutes": 5,
+        "closed_candle_change_pct": -0.148,
+        "turnover_vs_prev_12": 3.65,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.07456
+      },
+      "m15": {
+        "candle_start_ms": 1791556200000,
+        "interval_minutes": 15,
+        "closed_candle_change_pct": 2.159,
+        "turnover_vs_prev_12": 0.8,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.07555
+      }
+    },
+    {
+      "symbol": "WUSDT",
+      "last_price": 0.017602,
+      "bid": 0.01759,
+      "ask": 0.017609,
+      "spread_bps": 10.795761243216106,
+      "turnover_24h": 1782750.8297003,
+      "relative_turnover": 2.146720088193901,
+      "change_10m_pct": 1.149,
+      "change_30m_pct": 1.593,
+      "change_60m_pct": -0.402,
+      "change_24h_pct": 7.539999999999999,
+      "early_score": 5.624,
+      "status": "watch",
+      "confirmed": false,
+      "m5": {
+        "candle_start_ms": 1791557400000,
+        "interval_minutes": 5,
+        "closed_candle_change_pct": -0.148,
+        "turnover_vs_prev_12": 1.31,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.01772
+      },
+      "m15": {
+        "candle_start_ms": 1791556200000,
+        "interval_minutes": 15,
+        "closed_candle_change_pct": 0.824,
+        "turnover_vs_prev_12": 0.41,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.018094
+      }
+    },
+    {
+      "symbol": "APTUSDT",
+      "last_price": 0.8015,
+      "bid": 0.8017,
+      "ask": 0.802,
+      "spread_bps": 3.741348132444697,
+      "turnover_24h": 4299495.464166,
+      "relative_turnover": 1.6215755497398114,
+      "change_10m_pct": 1.225,
+      "change_30m_pct": 1.687,
+      "change_60m_pct": -0.149,
+      "change_24h_pct": 1.11,
+      "early_score": 5.566,
+      "status": "watch",
+      "confirmed": false,
+      "m5": {
+        "candle_start_ms": 1791557400000,
+        "interval_minutes": 5,
+        "closed_candle_change_pct": 0.602,
+        "turnover_vs_prev_12": 0.6,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.8044
+      },
+      "m15": {
+        "candle_start_ms": 1791556200000,
+        "interval_minutes": 15,
+        "closed_candle_change_pct": -0.214,
+        "turnover_vs_prev_12": 0.77,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.8305
+      }
+    }
+  ],
   "confirmed_count": 0,
   "pattern_watch": {
     "engine_version": "2.3.0-shadow",
