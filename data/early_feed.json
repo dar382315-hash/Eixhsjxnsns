@@ -1,44 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-09T00:15:11.753Z",
-  "generated_at_ms": 1791504911753,
+  "generated_at": "2026-10-09T00:25:11.111Z",
+  "generated_at_ms": 1791505511111,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
-  "top": [
-    {
-      "symbol": "DOTUSDT",
-      "last_price": 1.1083,
-      "bid": 1.1082,
-      "ask": 1.1085,
-      "spread_bps": 2.70672621464309,
-      "turnover_24h": 2192063.3969038,
-      "relative_turnover": 1.074558205575495,
-      "change_10m_pct": 1.446,
-      "change_30m_pct": 1.242,
-      "change_60m_pct": 0.018,
-      "change_24h_pct": -1.02,
-      "early_score": 5.206,
-      "status": "watch",
-      "confirmed": false,
-      "m5": {
-        "candle_start_ms": 1791504600000,
-        "interval_minutes": 5,
-        "closed_candle_change_pct": 0.217,
-        "turnover_vs_prev_12": 1.08,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 1.1097
-      },
-      "m15": {
-        "candle_start_ms": 1791504000000,
-        "interval_minutes": 15,
-        "closed_candle_change_pct": 1.632,
-        "turnover_vs_prev_12": 8.17,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 1.111
-      }
-    }
-  ],
+  "top": [],
   "confirmed_count": 0,
   "pattern_watch": {
     "engine_version": "2.3.0-shadow",
@@ -46,7 +13,7 @@
     "status": "partial_rolling_scan",
     "universe_checked": 380,
     "batch_scanned": 13,
-    "rolling_scanned": 324,
+    "rolling_scanned": 336,
     "rolling_window_hours": 6,
     "fresh_h1_coverage": 13,
     "continuous_h1_coverage": 13,
