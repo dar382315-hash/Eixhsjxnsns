@@ -1,44 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-09T02:25:11.413Z",
-  "generated_at_ms": 1791512711413,
+  "generated_at": "2026-10-09T02:35:10.905Z",
+  "generated_at_ms": 1791513310905,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
-  "top": [
-    {
-      "symbol": "LITUSDT",
-      "last_price": 3.695,
-      "bid": 3.691,
-      "ask": 3.693,
-      "spread_bps": 5.417118093175037,
-      "turnover_24h": 10492768.77494,
-      "relative_turnover": 0.8210026017532056,
-      "change_10m_pct": 0.874,
-      "change_30m_pct": 1.539,
-      "change_60m_pct": 1.595,
-      "change_24h_pct": 3.5900000000000003,
-      "early_score": 3.899,
-      "status": "watch",
-      "confirmed": false,
-      "m5": {
-        "candle_start_ms": 1791512400000,
-        "interval_minutes": 5,
-        "closed_candle_change_pct": -0.027,
-        "turnover_vs_prev_12": 0.54,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 3.697
-      },
-      "m15": {
-        "candle_start_ms": 1791511200000,
-        "interval_minutes": 15,
-        "closed_candle_change_pct": 0.301,
-        "turnover_vs_prev_12": 1.19,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 3.671
-      }
-    }
-  ],
+  "top": [],
   "confirmed_count": 0,
   "pattern_watch": {
     "engine_version": "2.3.0-shadow",
@@ -46,7 +13,7 @@
     "status": "partial_rolling_scan",
     "universe_checked": 380,
     "batch_scanned": 13,
-    "rolling_scanned": 369,
+    "rolling_scanned": 368,
     "rolling_window_hours": 6,
     "fresh_h1_coverage": 13,
     "continuous_h1_coverage": 13,
