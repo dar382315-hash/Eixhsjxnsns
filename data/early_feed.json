@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-09T03:35:10.899Z",
-  "generated_at_ms": 1791516910899,
+  "generated_at": "2026-10-09T03:45:10.794Z",
+  "generated_at_ms": 1791517510794,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
@@ -12,13 +12,13 @@
     "source": "bounded_cached_closed_1h_bars",
     "status": "partial_rolling_scan",
     "universe_checked": 380,
-    "batch_scanned": 15,
-    "rolling_scanned": 368,
+    "batch_scanned": 12,
+    "rolling_scanned": 357,
     "rolling_window_hours": 6,
-    "fresh_h1_coverage": 15,
-    "continuous_h1_coverage": 15,
+    "fresh_h1_coverage": 12,
+    "continuous_h1_coverage": 12,
     "invalid_or_stale_h1": 0,
-    "eligible_patterns_found": 6,
+    "eligible_patterns_found": 7,
     "top": [
       {
         "symbol": "METUSDT",
@@ -41,6 +41,30 @@
             "range_prior8a_pct": 15.69,
             "range_prior8b_pct": 21.83,
             "lower_level": 0.4265
+          }
+        ]
+      },
+      {
+        "symbol": "HBARUSDT",
+        "price_at_snapshot": 0.0914,
+        "change_24h_pct": -2.12,
+        "spread_bps": 2.19,
+        "turnover_24h": 4535333.961012,
+        "h1_last_closed_ms": 1791514800000,
+        "h1_bars_updated_at_ms": 1791514156873,
+        "pattern_score": 3.036,
+        "status": "research_watch",
+        "confirmed": false,
+        "patterns": [
+          {
+            "type": "volatility_squeeze",
+            "phase": "forming",
+            "level": 0.0927,
+            "volume_ratio": 0.33,
+            "range_last8_pct": 2.84,
+            "range_prior8a_pct": 8.09,
+            "range_prior8b_pct": 5.97,
+            "lower_level": 0.0901
           }
         ]
       },
