@@ -1,47 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-09T19:45:26.840Z",
-  "generated_at_ms": 1791575126840,
+  "generated_at": "2026-10-09T19:55:26.408Z",
+  "generated_at_ms": 1791575726408,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
-  "top": [
-    {
-      "symbol": "BATUSDT",
-      "last_price": 0.138,
-      "bid": 0.13799,
-      "ask": 0.13812,
-      "spread_bps": 9.41653688747175,
-      "turnover_24h": 1119363.0648391,
-      "relative_turnover": 5.167471854048098,
-      "change_10m_pct": 2.101,
-      "change_30m_pct": 4.214,
-      "change_60m_pct": 6.146,
-      "change_24h_pct": 39.53,
-      "early_score": -6.865,
-      "phase": "continuation",
-      "status": "watch",
-      "confirmed": false,
-      "m5": {
-        "candle_start_ms": 1791574800000,
-        "interval_minutes": 5,
-        "candle_age_seconds": 27,
-        "closed_candle_change_pct": 1.69,
-        "turnover_vs_prev_12": 1.76,
-        "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.13659
-      },
-      "m15": {
-        "candle_start_ms": 1791574200000,
-        "interval_minutes": 15,
-        "candle_age_seconds": 27,
-        "closed_candle_change_pct": 2.798,
-        "turnover_vs_prev_12": 0.71,
-        "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.13685
-      }
-    }
-  ],
+  "top": [],
   "confirmed_count": 0,
   "pattern_watch": {
     "engine_version": "2.3.0-shadow",
