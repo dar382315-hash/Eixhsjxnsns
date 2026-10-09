@@ -1,131 +1,34 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-09T08:25:11.355Z",
-  "generated_at_ms": 1791534311355,
+  "generated_at": "2026-10-09T08:35:11.067Z",
+  "generated_at_ms": 1791534911067,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
-  "top": [
-    {
-      "symbol": "WUSDT",
-      "last_price": 0.017609,
-      "bid": 0.01759,
-      "ask": 0.017611,
-      "spread_bps": 11.931479219340464,
-      "turnover_24h": 1324299.9089121,
-      "relative_turnover": 1.5946710947445644,
-      "change_10m_pct": 2.129,
-      "change_30m_pct": 0.848,
-      "change_60m_pct": null,
-      "change_24h_pct": 7.32,
-      "early_score": 7.009,
-      "status": "watch",
-      "confirmed": false,
-      "m5": {
-        "candle_start_ms": 1791534000000,
-        "interval_minutes": 5,
-        "closed_candle_change_pct": 0.709,
-        "turnover_vs_prev_12": 1.45,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.01772
-      },
-      "m15": {
-        "candle_start_ms": 1791532800000,
-        "interval_minutes": 15,
-        "closed_candle_change_pct": -0.258,
-        "turnover_vs_prev_12": 2.42,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.01772
-      }
-    },
-    {
-      "symbol": "KASUSDT",
-      "last_price": 0.04153,
-      "bid": 0.04147,
-      "ask": 0.04149,
-      "spread_bps": 4.821600771455927,
-      "turnover_24h": 2087418.953104,
-      "relative_turnover": 0.8236861792623476,
-      "change_10m_pct": 1.12,
-      "change_30m_pct": 1.665,
-      "change_60m_pct": null,
-      "change_24h_pct": 3.7199999999999998,
-      "early_score": 4.586,
-      "status": "watch",
-      "confirmed": false,
-      "m5": {
-        "candle_start_ms": 1791534000000,
-        "interval_minutes": 5,
-        "closed_candle_change_pct": 0.459,
-        "turnover_vs_prev_12": 3.08,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.04166
-      },
-      "m15": {
-        "candle_start_ms": 1791532800000,
-        "interval_minutes": 15,
-        "closed_candle_change_pct": 0.854,
-        "turnover_vs_prev_12": 2.34,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.04155
-      }
-    },
-    {
-      "symbol": "SCRUSDT",
-      "last_price": 0.02605,
-      "bid": 0.02605,
-      "ask": 0.02609,
-      "spread_bps": 15.343306482546364,
-      "turnover_24h": 628941.251384,
-      "relative_turnover": 2.1524009175042256,
-      "change_10m_pct": 1.047,
-      "change_30m_pct": -0.42,
-      "change_60m_pct": null,
-      "change_24h_pct": 6.59,
-      "early_score": 4.204,
-      "status": "watch",
-      "confirmed": false,
-      "m5": {
-        "candle_start_ms": 1791534000000,
-        "interval_minutes": 5,
-        "closed_candle_change_pct": 0.077,
-        "turnover_vs_prev_12": 1.37,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.02669
-      },
-      "m15": {
-        "candle_start_ms": 1791532800000,
-        "interval_minutes": 15,
-        "closed_candle_change_pct": -0.425,
-        "turnover_vs_prev_12": 1.29,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.02695
-      }
-    }
-  ],
+  "top": [],
   "confirmed_count": 0,
   "pattern_watch": {
     "engine_version": "2.3.0-shadow",
     "source": "bounded_cached_closed_1h_bars",
     "status": "partial_rolling_scan",
     "universe_checked": 380,
-    "batch_scanned": 12,
-    "rolling_scanned": 270,
+    "batch_scanned": 14,
+    "rolling_scanned": 282,
     "rolling_window_hours": 6,
-    "fresh_h1_coverage": 8,
-    "continuous_h1_coverage": 8,
+    "fresh_h1_coverage": 11,
+    "continuous_h1_coverage": 11,
     "invalid_or_stale_h1": 0,
-    "eligible_patterns_found": 8,
+    "eligible_patterns_found": 10,
     "top": [
       {
         "symbol": "KASUSDT",
-        "price_at_snapshot": 0.04121,
-        "change_24h_pct": 3.93,
-        "spread_bps": 4.85,
-        "turnover_24h": 1887954.8274406,
+        "price_at_snapshot": 0.04153,
+        "change_24h_pct": 3.7199999999999998,
+        "spread_bps": 4.82,
+        "turnover_24h": 2087418.953104,
         "h1_last_closed_ms": 1791529200000,
         "h1_bars_updated_at_ms": 1791528551869,
-        "pattern_score": 3.529,
+        "pattern_score": 3.572,
         "status": "research_watch",
         "confirmed": false,
         "patterns": [
@@ -135,6 +38,39 @@
             "level": 0.04049,
             "volume_ratio": 4.31,
             "bar_close_pct": 1.852
+          }
+        ]
+      },
+      {
+        "symbol": "VVVUSDT",
+        "price_at_snapshot": 22.816,
+        "change_24h_pct": -8.1,
+        "spread_bps": 1.75,
+        "turnover_24h": 18250305.13092,
+        "h1_last_closed_ms": 1791532800000,
+        "h1_bars_updated_at_ms": 1791531692331,
+        "pattern_score": 3.382,
+        "status": "research_watch",
+        "confirmed": false,
+        "patterns": [
+          {
+            "type": "volatility_squeeze",
+            "phase": "forming",
+            "level": 23.258,
+            "volume_ratio": 0.48,
+            "range_last8_pct": 3.37,
+            "range_prior8a_pct": 7.26,
+            "range_prior8b_pct": 15.94,
+            "lower_level": 22.488
+          },
+          {
+            "type": "bull_flag",
+            "phase": "forming",
+            "level": 23.258,
+            "volume_ratio": 0.48,
+            "pole_pct": 5.13,
+            "retracement_fraction": 0.348,
+            "flag_length_bars": 6
           }
         ]
       },
@@ -159,6 +95,30 @@
             "range_prior8a_pct": 9.75,
             "range_prior8b_pct": 5.21,
             "lower_level": 1.0392
+          }
+        ]
+      },
+      {
+        "symbol": "VIRTUALUSDT",
+        "price_at_snapshot": 0.7192,
+        "change_24h_pct": -5.6899999999999995,
+        "spread_bps": 2.78,
+        "turnover_24h": 4522683.483403,
+        "h1_last_closed_ms": 1791532800000,
+        "h1_bars_updated_at_ms": 1791531562355,
+        "pattern_score": 3.029,
+        "status": "research_watch",
+        "confirmed": false,
+        "patterns": [
+          {
+            "type": "volatility_squeeze",
+            "phase": "near_resistance",
+            "level": 0.7225,
+            "volume_ratio": 0.4,
+            "range_last8_pct": 2.76,
+            "range_prior8a_pct": 5.84,
+            "range_prior8b_pct": 10.37,
+            "lower_level": 0.7028
           }
         ]
       },
@@ -255,61 +215,6 @@
             "range_prior8a_pct": 14.46,
             "range_prior8b_pct": 14.75,
             "lower_level": 0.07891
-          }
-        ]
-      },
-      {
-        "symbol": "SOSOUSDT",
-        "price_at_snapshot": 0.3782,
-        "change_24h_pct": 13.469999999999999,
-        "spread_bps": 15.86,
-        "turnover_24h": 589784.596793,
-        "h1_last_closed_ms": 1791529200000,
-        "h1_bars_updated_at_ms": 1791531688922,
-        "pattern_score": 2.613,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
-          {
-            "type": "breakout_retest",
-            "phase": "watch_retest",
-            "level": 0.3689,
-            "volume_ratio": 0.81,
-            "breakout_candle_ms": 1791504000000
-          },
-          {
-            "type": "volatility_squeeze",
-            "phase": "near_resistance",
-            "level": 0.3726,
-            "volume_ratio": 0.81,
-            "range_last8_pct": 2.8,
-            "range_prior8a_pct": 6.67,
-            "range_prior8b_pct": 6.2,
-            "lower_level": 0.3623
-          }
-        ]
-      },
-      {
-        "symbol": "AVNTUSDT",
-        "price_at_snapshot": 0.13516,
-        "change_24h_pct": 5.75,
-        "spread_bps": 4.44,
-        "turnover_24h": 701289.947952,
-        "h1_last_closed_ms": 1791529200000,
-        "h1_bars_updated_at_ms": 1791532285842,
-        "pattern_score": 2.203,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
-          {
-            "type": "volatility_squeeze",
-            "phase": "forming",
-            "level": 0.13436,
-            "volume_ratio": 0.47,
-            "range_last8_pct": 2.81,
-            "range_prior8a_pct": 6.73,
-            "range_prior8b_pct": 9.76,
-            "lower_level": 0.13064
           }
         ]
       }
