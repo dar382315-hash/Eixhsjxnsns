@@ -1,110 +1,75 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-09T23:45:28.593Z",
-  "generated_at_ms": 1791589528593,
+  "generated_at": "2026-10-09T23:55:27.097Z",
+  "generated_at_ms": 1791590127097,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
   "top": [
     {
-      "symbol": "CCUSDT",
-      "last_price": 0.12321,
-      "bid": 0.12321,
-      "ask": 0.12325,
-      "spread_bps": 3.2459628337254216,
-      "turnover_24h": 9284823.765084,
-      "relative_turnover": 1.6653627243309896,
-      "change_10m_pct": 0.893,
-      "change_30m_pct": 0.728,
-      "change_60m_pct": 0.802,
-      "change_24h_pct": 3.4799999999999995,
-      "early_score": 4.143,
+      "symbol": "BASEDUSDT",
+      "last_price": 0.06809,
+      "bid": 0.06805,
+      "ask": 0.06815,
+      "spread_bps": 14.684287812041537,
+      "turnover_24h": 481296.065296,
+      "relative_turnover": 1.25021331591926,
+      "change_10m_pct": 1.144,
+      "change_30m_pct": 1.385,
+      "change_60m_pct": 2.237,
+      "change_24h_pct": 3.2,
+      "early_score": 4.632,
       "phase": "early",
       "status": "early_breakout_watch",
       "confirmed": true,
       "m5": {
-        "candle_start_ms": 1791589200000,
+        "candle_start_ms": 1791589800000,
         "interval_minutes": 5,
         "candle_age_seconds": 27,
-        "closed_candle_change_pct": -0.565,
-        "turnover_vs_prev_12": 0.85,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.12404
+        "closed_candle_change_pct": 0.708,
+        "turnover_vs_prev_12": 7.42,
+        "broke_prev_12_high": true,
+        "resistance_prev_12_high": 0.06815
       },
       "m15": {
         "candle_start_ms": 1791588600000,
         "interval_minutes": 15,
-        "candle_age_seconds": 27,
-        "closed_candle_change_pct": 1.049,
-        "turnover_vs_prev_12": 4.04,
+        "candle_age_seconds": 627,
+        "closed_candle_change_pct": 0.953,
+        "turnover_vs_prev_12": 1.97,
         "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.12327
-      }
-    },
-    {
-      "symbol": "OPUSDT",
-      "last_price": 0.1324,
-      "bid": 0.13237,
-      "ask": 0.13238,
-      "spread_bps": 0.7554296506145421,
-      "turnover_24h": 1979961.0737234,
-      "relative_turnover": 0.8657502454302852,
-      "change_10m_pct": 0.892,
-      "change_30m_pct": 1.246,
-      "change_60m_pct": 2.113,
-      "change_24h_pct": 10.35,
-      "early_score": 3.802,
-      "phase": "early",
-      "status": "early_breakout_watch",
-      "confirmed": true,
-      "m5": {
-        "candle_start_ms": 1791589200000,
-        "interval_minutes": 5,
-        "candle_age_seconds": 28,
-        "closed_candle_change_pct": 0.008,
-        "turnover_vs_prev_12": 3.05,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.13289
-      },
-      "m15": {
-        "candle_start_ms": 1791588600000,
-        "interval_minutes": 15,
-        "candle_age_seconds": 28,
-        "closed_candle_change_pct": 1.367,
-        "turnover_vs_prev_12": 2.53,
-        "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.1314
+        "resistance_prev_12_high": 0.06727
       }
     },
     {
       "symbol": "CAPUSDT",
-      "last_price": 0.08562,
-      "bid": 0.08558,
-      "ask": 0.08563,
-      "spread_bps": 5.840780328251212,
-      "turnover_24h": 5142382.102655,
-      "relative_turnover": 0.7790537899691261,
-      "change_10m_pct": 1.759,
-      "change_30m_pct": 1.662,
-      "change_60m_pct": 3.568,
-      "change_24h_pct": 16.89,
-      "early_score": 2.925,
+      "last_price": 0.08683,
+      "bid": 0.08677,
+      "ask": 0.08682,
+      "spread_bps": 5.76070050118031,
+      "turnover_24h": 5309998.396962,
+      "relative_turnover": 0.8044471012271577,
+      "change_10m_pct": 1.413,
+      "change_30m_pct": 2.855,
+      "change_60m_pct": 4.514,
+      "change_24h_pct": 18.509999999999998,
+      "early_score": 1.878,
       "phase": "early",
       "status": "watch",
       "confirmed": false,
       "m5": {
-        "candle_start_ms": 1791589200000,
+        "candle_start_ms": 1791589800000,
         "interval_minutes": 5,
-        "candle_age_seconds": 29,
-        "closed_candle_change_pct": 0.894,
-        "turnover_vs_prev_12": 0.8,
-        "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.08516
+        "candle_age_seconds": 27,
+        "closed_candle_change_pct": -0.3,
+        "turnover_vs_prev_12": 0.76,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.08706
       },
       "m15": {
         "candle_start_ms": 1791588600000,
         "interval_minutes": 15,
-        "candle_age_seconds": 29,
+        "candle_age_seconds": 627,
         "closed_candle_change_pct": 1.805,
         "turnover_vs_prev_12": 1.53,
         "broke_prev_12_high": true,
@@ -112,7 +77,7 @@
       }
     }
   ],
-  "confirmed_count": 2,
+  "confirmed_count": 1,
   "pattern_watch": {
     "engine_version": "2.3.0-shadow",
     "source": "bounded_cached_closed_1h_bars",
@@ -267,7 +232,7 @@
     "note": "Observational tracking of selected top-ranked watches; no baseline, no proof of profitability, no live threshold adaptation."
   },
   "ai_review": {
-    "status": "reserved_for_manual_checks",
+    "status": "no_new_qualified_candidate",
     "engine_version": "2.4.3",
     "mode": "independent_ai_plus_legacy",
     "model": "@cf/qwen/qwen3-30b-a3b-fp8",
@@ -277,18 +242,7 @@
     "cooldown_skipped": 0,
     "sent": false,
     "sent_symbols": [],
-    "results": [
-      {
-        "status": "reserved_for_manual_checks",
-        "symbol": null,
-        "sent": false,
-        "latest": null,
-        "paper_trade": null,
-        "reason": null,
-        "error": null,
-        "delivery_commit_warning": false
-      }
-    ],
+    "results": [],
     "latest": null
   },
   "ai_learning": {
@@ -314,28 +268,28 @@
     "status": "research_only",
     "adaptive_weights_enabled": false,
     "enables_trading": false,
-    "newly_evaluated_24h": 3,
+    "newly_evaluated_24h": 1,
     "newly_evaluated_7d": 0,
     "newly_unscorable": 0,
     "states": [
       {
         "verdict": "SKIP",
         "state": "evaluated",
-        "n": 3
+        "n": 4
       },
       {
         "verdict": "SKIP",
         "state": "pending",
-        "n": 18
+        "n": 17
       }
     ],
     "by_verdict_24h": [
       {
         "verdict": "SKIP",
-        "n": 3,
+        "n": 4,
         "wins": 1,
-        "losses": 1,
-        "hypothetical_mean_net_pct": 0.033
+        "losses": 2,
+        "hypothetical_mean_net_pct": -1.047
       }
     ],
     "evaluation_definition": "24h +8/-4 and 7d +30/-12 evaluated from Bybit ask snapshot, not conditional entry fills. Does NOT measure actual strategy P&L. Costs assumed 0.15% per side. Only contiguous complete H1 bars. No performance claim."
