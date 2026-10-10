@@ -1,114 +1,114 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T10:55:26.975Z",
-  "generated_at_ms": 1791629726975,
+  "generated_at": "2026-10-10T11:05:27.046Z",
+  "generated_at_ms": 1791630327046,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
   "top": [
     {
-      "symbol": "DEEPUSDT",
-      "last_price": 0.02203,
-      "bid": 0.02203,
-      "ask": 0.02204,
-      "spread_bps": 4.538234626730017,
-      "turnover_24h": 782183.39275,
-      "relative_turnover": 0.7787311433848497,
-      "change_10m_pct": 1.474,
-      "change_30m_pct": 1.944,
-      "change_60m_pct": 0.686,
-      "change_24h_pct": 7.199999999999999,
-      "early_score": 5.635,
+      "symbol": "BATUSDT",
+      "last_price": 0.13713,
+      "bid": 0.13684,
+      "ask": 0.1371,
+      "spread_bps": 18.982258888808516,
+      "turnover_24h": 1440879.3901527,
+      "relative_turnover": 5.156181474360508,
+      "change_10m_pct": 5.509,
+      "change_30m_pct": 4.6,
+      "change_60m_pct": 3.91,
+      "change_24h_pct": 19.46,
+      "early_score": 14.493,
       "phase": "early",
+      "status": "early_breakout_watch",
+      "confirmed": true,
+      "m5": {
+        "candle_start_ms": 1791630000000,
+        "interval_minutes": 5,
+        "candle_age_seconds": 27,
+        "closed_candle_change_pct": 1.218,
+        "turnover_vs_prev_12": 2.29,
+        "broke_prev_12_high": true,
+        "resistance_prev_12_high": 0.13643
+      },
+      "m15": {
+        "candle_start_ms": 1791629100000,
+        "interval_minutes": 15,
+        "candle_age_seconds": 327,
+        "closed_candle_change_pct": 3.125,
+        "turnover_vs_prev_12": 2.25,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.14248
+      }
+    },
+    {
+      "symbol": "METUSDT",
+      "last_price": 0.4305,
+      "bid": 0.4305,
+      "ask": 0.4306,
+      "spread_bps": 2.322610614330252,
+      "turnover_24h": 2192451.32438,
+      "relative_turnover": 0.5727495090285554,
+      "change_10m_pct": 2.159,
+      "change_30m_pct": 2.257,
+      "change_60m_pct": 1.797,
+      "change_24h_pct": 2.77,
+      "early_score": 7.529,
+      "phase": "early",
+      "status": "early_breakout_watch",
+      "confirmed": true,
+      "m5": {
+        "candle_start_ms": 1791630000000,
+        "interval_minutes": 5,
+        "candle_age_seconds": 27,
+        "closed_candle_change_pct": 1.866,
+        "turnover_vs_prev_12": 8.06,
+        "broke_prev_12_high": true,
+        "resistance_prev_12_high": 0.4261
+      },
+      "m15": {
+        "candle_start_ms": 1791629100000,
+        "interval_minutes": 15,
+        "candle_age_seconds": 327,
+        "closed_candle_change_pct": 0.954,
+        "turnover_vs_prev_12": 0.54,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.4383
+      }
+    },
+    {
+      "symbol": "MAGICUSDT",
+      "last_price": 0.11445,
+      "bid": 0.11465,
+      "ask": 0.11476,
+      "spread_bps": 9.589817357569329,
+      "turnover_24h": 5092566.9445688,
+      "relative_turnover": 20.35619032277512,
+      "change_10m_pct": 2.014,
+      "change_30m_pct": 0.908,
+      "change_60m_pct": 6.159,
+      "change_24h_pct": 47.54,
+      "early_score": -12.966,
+      "phase": "continuation",
       "status": "watch",
       "confirmed": false,
       "m5": {
-        "candle_start_ms": 1791629400000,
+        "candle_start_ms": 1791630000000,
         "interval_minutes": 5,
         "candle_age_seconds": 27,
-        "closed_candle_change_pct": 0.642,
-        "turnover_vs_prev_12": 9.46,
+        "closed_candle_change_pct": 0.009,
+        "turnover_vs_prev_12": 0.47,
         "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.02194
+        "resistance_prev_12_high": 0.118
       },
       "m15": {
-        "candle_start_ms": 1791628200000,
+        "candle_start_ms": 1791629100000,
         "interval_minutes": 15,
-        "candle_age_seconds": 627,
-        "closed_candle_change_pct": 0.324,
-        "turnover_vs_prev_12": 0.34,
+        "candle_age_seconds": 327,
+        "closed_candle_change_pct": -2.825,
+        "turnover_vs_prev_12": 0.41,
         "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.02201
-      }
-    },
-    {
-      "symbol": "AZTECUSDT",
-      "last_price": 0.0161,
-      "bid": 0.01608,
-      "ask": 0.0161,
-      "spread_bps": 12.430080795524665,
-      "turnover_24h": 807830.1429552,
-      "relative_turnover": 0.8469979424101693,
-      "change_10m_pct": 1.131,
-      "change_30m_pct": 1.322,
-      "change_60m_pct": 0.94,
-      "change_24h_pct": 9.379999999999999,
-      "early_score": 4.266,
-      "phase": "early",
-      "status": "early_breakout_watch",
-      "confirmed": true,
-      "m5": {
-        "candle_start_ms": 1791629400000,
-        "interval_minutes": 5,
-        "candle_age_seconds": 27,
-        "closed_candle_change_pct": 2.457,
-        "turnover_vs_prev_12": 47.52,
-        "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.016
-      },
-      "m15": {
-        "candle_start_ms": 1791628200000,
-        "interval_minutes": 15,
-        "candle_age_seconds": 627,
-        "closed_candle_change_pct": 0.315,
-        "turnover_vs_prev_12": 0.53,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.01608
-      }
-    },
-    {
-      "symbol": "INJUSDT",
-      "last_price": 7.265,
-      "bid": 7.264,
-      "ask": 7.266,
-      "spread_bps": 2.7529249827939153,
-      "turnover_24h": 944667.64796,
-      "relative_turnover": 0.22925871392773473,
-      "change_10m_pct": 0.945,
-      "change_30m_pct": 1.452,
-      "change_60m_pct": 0.651,
-      "change_24h_pct": 3.8600000000000003,
-      "early_score": 4.046,
-      "phase": "early",
-      "status": "early_breakout_watch",
-      "confirmed": true,
-      "m5": {
-        "candle_start_ms": 1791629400000,
-        "interval_minutes": 5,
-        "candle_age_seconds": 27,
-        "closed_candle_change_pct": 0.902,
-        "turnover_vs_prev_12": 3.3,
-        "broke_prev_12_high": true,
-        "resistance_prev_12_high": 7.244
-      },
-      "m15": {
-        "candle_start_ms": 1791628200000,
-        "interval_minutes": 15,
-        "candle_age_seconds": 627,
-        "closed_candle_change_pct": 0.237,
-        "turnover_vs_prev_12": 0.76,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 7.244
+        "resistance_prev_12_high": 0.11796
       }
     }
   ],
@@ -119,34 +119,38 @@
     "status": "partial_rolling_scan",
     "universe_checked": 380,
     "batch_scanned": 11,
-    "rolling_scanned": 260,
+    "rolling_scanned": 252,
     "rolling_window_hours": 6,
-    "fresh_h1_coverage": 8,
-    "continuous_h1_coverage": 8,
+    "fresh_h1_coverage": 3,
+    "continuous_h1_coverage": 3,
     "invalid_or_stale_h1": 0,
-    "eligible_patterns_found": 9,
+    "eligible_patterns_found": 4,
     "top": [
       {
-        "symbol": "PENGUUSDT",
-        "price_at_snapshot": 0.008362,
-        "change_24h_pct": 3.3099999999999996,
-        "spread_bps": 1.2,
-        "turnover_24h": 1936744.162183,
-        "h1_last_closed_ms": 1791622800000,
-        "h1_bars_updated_at_ms": 1791621568960,
-        "pattern_score": 2.676,
+        "symbol": "INJUSDT",
+        "price_at_snapshot": 7.265,
+        "change_24h_pct": 3.8600000000000003,
+        "spread_bps": 2.75,
+        "turnover_24h": 944667.64796,
+        "h1_last_closed_ms": 1791626400000,
+        "h1_bars_updated_at_ms": 1791625172090,
+        "pattern_score": 3.249,
         "status": "research_watch",
         "confirmed": false,
         "patterns": [
           {
-            "type": "volatility_squeeze",
-            "phase": "near_resistance",
-            "level": 0.008425,
-            "volume_ratio": 0.38,
-            "range_last8_pct": 1.65,
-            "range_prior8a_pct": 5.07,
-            "range_prior8b_pct": 2.96,
-            "lower_level": 0.008287
+            "type": "range_breakout",
+            "phase": "volume_confirmed",
+            "level": 7.138,
+            "volume_ratio": 2.14,
+            "bar_close_pct": 0.532
+          },
+          {
+            "type": "breakout_retest",
+            "phase": "watch_retest",
+            "level": 7.053,
+            "volume_ratio": 2.14,
+            "breakout_candle_ms": 1791608400000
           }
         ]
       },
@@ -220,101 +224,6 @@
             "lower_level": 0.09934
           }
         ]
-      },
-      {
-        "symbol": "METAXUSDT",
-        "price_at_snapshot": 721.94,
-        "change_24h_pct": -0.63,
-        "spread_bps": 3.32,
-        "turnover_24h": 764430.57183,
-        "h1_last_closed_ms": 1791622800000,
-        "h1_bars_updated_at_ms": 1791621691113,
-        "pattern_score": 2.251,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
-          {
-            "type": "volatility_squeeze",
-            "phase": "near_resistance",
-            "level": 722.79,
-            "volume_ratio": 0,
-            "range_last8_pct": 0.4,
-            "range_prior8a_pct": 1.47,
-            "range_prior8b_pct": 1.45,
-            "lower_level": 719.92
-          }
-        ]
-      },
-      {
-        "symbol": "MEGAUSDT",
-        "price_at_snapshot": 0.04199,
-        "change_24h_pct": -0.59,
-        "spread_bps": 4.76,
-        "turnover_24h": 720697.268388,
-        "h1_last_closed_ms": 1791622800000,
-        "h1_bars_updated_at_ms": 1791621570267,
-        "pattern_score": 2.211,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
-          {
-            "type": "volatility_squeeze",
-            "phase": "forming",
-            "level": 0.04217,
-            "volume_ratio": 0.75,
-            "range_last8_pct": 2.04,
-            "range_prior8a_pct": 3.21,
-            "range_prior8b_pct": 3.57,
-            "lower_level": 0.04132
-          }
-        ]
-      },
-      {
-        "symbol": "APEUSDT",
-        "price_at_snapshot": 0.15398,
-        "change_24h_pct": 8.3,
-        "spread_bps": 5.85,
-        "turnover_24h": 580240.2459312,
-        "h1_last_closed_ms": 1791622800000,
-        "h1_bars_updated_at_ms": 1791624089547,
-        "pattern_score": 2.206,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
-          {
-            "type": "bull_flag",
-            "phase": "forming",
-            "level": 0.15493,
-            "volume_ratio": 0.69,
-            "pole_pct": 6.38,
-            "retracement_fraction": 0.19,
-            "flag_length_bars": 6
-          }
-        ]
-      },
-      {
-        "symbol": "INITUSDT",
-        "price_at_snapshot": 0.11404,
-        "change_24h_pct": 2.8000000000000003,
-        "spread_bps": 11.4,
-        "turnover_24h": 581218.034658,
-        "h1_last_closed_ms": 1791622800000,
-        "h1_bars_updated_at_ms": 1791619767143,
-        "pattern_score": 2.051,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
-          {
-            "type": "volatility_squeeze",
-            "phase": "forming",
-            "level": 0.11377,
-            "volume_ratio": 0.68,
-            "range_last8_pct": 3.1,
-            "range_prior8a_pct": 5.21,
-            "range_prior8b_pct": 4.87,
-            "lower_level": 0.1103
-          }
-        ]
       }
     ],
     "shadow_only": true,
@@ -367,28 +276,17 @@
     "note": "Observational tracking of selected top-ranked watches; no baseline, no proof of profitability, no live threshold adaptation."
   },
   "ai_review": {
-    "status": "auto_quota_pacing",
+    "status": "no_new_qualified_candidate",
     "engine_version": "2.4.3",
     "mode": "independent_ai_plus_legacy",
     "model": "@cf/qwen/qwen3-30b-a3b-fp8",
     "prechecked": 0,
     "market_prechecks": 0,
     "model_attempts": 0,
-    "cooldown_skipped": 0,
+    "cooldown_skipped": 1,
     "sent": false,
     "sent_symbols": [],
-    "results": [
-      {
-        "status": "auto_quota_pacing",
-        "symbol": null,
-        "sent": false,
-        "latest": null,
-        "paper_trade": null,
-        "reason": null,
-        "error": null,
-        "delivery_commit_warning": false
-      }
-    ],
+    "results": [],
     "latest": null
   },
   "ai_learning": {
