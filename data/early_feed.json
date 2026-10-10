@@ -1,48 +1,118 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T17:45:26.410Z",
-  "generated_at_ms": 1791654326410,
+  "generated_at": "2026-10-10T17:55:26.480Z",
+  "generated_at_ms": 1791654926480,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
   "top": [
     {
       "symbol": "NIGHTUSDT",
-      "last_price": 0.04972,
-      "bid": 0.04971,
-      "ask": 0.04974,
-      "spread_bps": 6.033182503771191,
-      "turnover_24h": 2579516.464067,
-      "relative_turnover": 0.7267274841305575,
-      "change_10m_pct": 1.428,
-      "change_30m_pct": 2.77,
-      "change_60m_pct": 2.262,
-      "change_24h_pct": 8.73,
-      "early_score": 6.082,
+      "last_price": 0.05034,
+      "bid": 0.05031,
+      "ask": 0.05034,
+      "spread_bps": 5.961251862891654,
+      "turnover_24h": 2591836.106937,
+      "relative_turnover": 0.7301982986002532,
+      "change_10m_pct": 1.247,
+      "change_30m_pct": 3.602,
+      "change_60m_pct": 3.453,
+      "change_24h_pct": 10.08,
+      "early_score": 6.231,
       "phase": "early",
       "status": "early_breakout_watch",
       "confirmed": true,
       "m5": {
-        "candle_start_ms": 1791654000000,
+        "candle_start_ms": 1791654600000,
         "interval_minutes": 5,
         "candle_age_seconds": 26,
-        "closed_candle_change_pct": 0.282,
-        "turnover_vs_prev_12": 1.49,
+        "closed_candle_change_pct": 1.016,
+        "turnover_vs_prev_12": 1.45,
         "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.04971
+        "resistance_prev_12_high": 0.05031
       },
       "m15": {
         "candle_start_ms": 1791653400000,
         "interval_minutes": 15,
-        "candle_age_seconds": 26,
+        "candle_age_seconds": 626,
         "closed_candle_change_pct": 1.635,
         "turnover_vs_prev_12": 2.38,
         "broke_prev_12_high": true,
         "resistance_prev_12_high": 0.04898
       }
+    },
+    {
+      "symbol": "CHIPUSDT",
+      "last_price": 0.05884,
+      "bid": 0.05882,
+      "ask": 0.05889,
+      "spread_bps": 11.893636904256327,
+      "turnover_24h": 2132406.66152,
+      "relative_turnover": 1.2445416012617787,
+      "change_10m_pct": 1.799,
+      "change_30m_pct": 5.618,
+      "change_60m_pct": 7.785,
+      "change_24h_pct": 19.54,
+      "early_score": 4.298,
+      "phase": "early",
+      "status": "early_breakout_watch",
+      "confirmed": true,
+      "m5": {
+        "candle_start_ms": 1791654600000,
+        "interval_minutes": 5,
+        "candle_age_seconds": 26,
+        "closed_candle_change_pct": 0.922,
+        "turnover_vs_prev_12": 3.04,
+        "broke_prev_12_high": true,
+        "resistance_prev_12_high": 0.059
+      },
+      "m15": {
+        "candle_start_ms": 1791653400000,
+        "interval_minutes": 15,
+        "candle_age_seconds": 626,
+        "closed_candle_change_pct": 1.655,
+        "turnover_vs_prev_12": 3.44,
+        "broke_prev_12_high": true,
+        "resistance_prev_12_high": 0.05704
+      }
+    },
+    {
+      "symbol": "BRUSDT",
+      "last_price": 0.4988,
+      "bid": 0.49838,
+      "ask": 0.49875,
+      "spread_bps": 7.421299128499533,
+      "turnover_24h": 964728.45707,
+      "relative_turnover": 0.22700705511264035,
+      "change_10m_pct": 1.158,
+      "change_30m_pct": 0.972,
+      "change_60m_pct": 2.06,
+      "change_24h_pct": -1.71,
+      "early_score": 4.156,
+      "phase": "early",
+      "status": "watch",
+      "confirmed": false,
+      "m5": {
+        "candle_start_ms": 1791654600000,
+        "interval_minutes": 5,
+        "candle_age_seconds": 26,
+        "closed_candle_change_pct": 1.08,
+        "turnover_vs_prev_12": 0.46,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.50147
+      },
+      "m15": {
+        "candle_start_ms": 1791653400000,
+        "interval_minutes": 15,
+        "candle_age_seconds": 626,
+        "closed_candle_change_pct": -0.002,
+        "turnover_vs_prev_12": 0.7,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.50147
+      }
     }
   ],
-  "confirmed_count": 1,
+  "confirmed_count": 2,
   "pattern_watch": {
     "engine_version": "2.3.0-shadow",
     "source": "bounded_cached_closed_1h_bars",
@@ -367,7 +437,7 @@
       {
         "verdict": "SKIP",
         "state": "pending",
-        "n": 11
+        "n": 13
       }
     ],
     "by_verdict_24h": [
