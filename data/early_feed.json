@@ -1,93 +1,58 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T11:25:27.865Z",
-  "generated_at_ms": 1791631527865,
+  "generated_at": "2026-10-10T11:35:26.818Z",
+  "generated_at_ms": 1791632126818,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
   "top": [
     {
-      "symbol": "ARXUSDT",
-      "last_price": 0.2627,
-      "bid": 0.2624,
-      "ask": 0.2629,
-      "spread_bps": 19.03674090995623,
-      "turnover_24h": 469593.422482,
-      "relative_turnover": 0.22939783344514897,
-      "change_10m_pct": 1,
-      "change_30m_pct": 1,
-      "change_60m_pct": 4.453,
-      "change_24h_pct": -0.64,
-      "early_score": 3.633,
+      "symbol": "WUSDT",
+      "last_price": 0.017335,
+      "bid": 0.017304,
+      "ask": 0.01732,
+      "spread_bps": 9.24214417744839,
+      "turnover_24h": 1280338.2770323,
+      "relative_turnover": 1.4362796813161232,
+      "change_10m_pct": 1.457,
+      "change_30m_pct": 2.623,
+      "change_60m_pct": 2.574,
+      "change_24h_pct": -1.63,
+      "early_score": 6.526,
       "phase": "early",
       "status": "early_breakout_watch",
       "confirmed": true,
       "m5": {
-        "candle_start_ms": 1791631200000,
+        "candle_start_ms": 1791631800000,
         "interval_minutes": 5,
         "candle_age_seconds": 27,
-        "closed_candle_change_pct": 0.344,
-        "turnover_vs_prev_12": 0.93,
+        "closed_candle_change_pct": 1.399,
+        "turnover_vs_prev_12": 13.07,
         "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.2616
+        "resistance_prev_12_high": 0.017184
       },
       "m15": {
-        "candle_start_ms": 1791630000000,
+        "candle_start_ms": 1791630900000,
         "interval_minutes": 15,
-        "candle_age_seconds": 627,
-        "closed_candle_change_pct": 0.619,
-        "turnover_vs_prev_12": 2.17,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.2608
-      }
-    },
-    {
-      "symbol": "BATUSDT",
-      "last_price": 0.14694,
-      "bid": 0.14677,
-      "ask": 0.14694,
-      "spread_bps": 11.576044397533328,
-      "turnover_24h": 1468631.6311854,
-      "relative_turnover": 5.255492764439847,
-      "change_10m_pct": 1.759,
-      "change_30m_pct": 13.057,
-      "change_60m_pct": 10.581,
-      "change_24h_pct": 28.33,
-      "early_score": 5.779,
-      "phase": "continuation",
-      "status": "continuation_breakout_watch",
-      "confirmed": true,
-      "m5": {
-        "candle_start_ms": 1791631200000,
-        "interval_minutes": 5,
-        "candle_age_seconds": 28,
-        "closed_candle_change_pct": 3.877,
-        "turnover_vs_prev_12": 2.11,
+        "candle_age_seconds": 327,
+        "closed_candle_change_pct": 0.799,
+        "turnover_vs_prev_12": 0.41,
         "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.14524
-      },
-      "m15": {
-        "candle_start_ms": 1791630000000,
-        "interval_minutes": 15,
-        "candle_age_seconds": 628,
-        "closed_candle_change_pct": 5.51,
-        "turnover_vs_prev_12": 2.57,
-        "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.14248
+        "resistance_prev_12_high": 0.017133
       }
     }
   ],
-  "confirmed_count": 2,
+  "confirmed_count": 1,
   "pattern_watch": {
     "engine_version": "2.3.0-shadow",
     "source": "bounded_cached_closed_1h_bars",
     "status": "partial_rolling_scan",
     "universe_checked": 380,
-    "batch_scanned": 11,
-    "rolling_scanned": 262,
+    "batch_scanned": 10,
+    "rolling_scanned": 255,
     "rolling_window_hours": 6,
-    "fresh_h1_coverage": 7,
-    "continuous_h1_coverage": 7,
+    "fresh_h1_coverage": 6,
+    "continuous_h1_coverage": 6,
     "invalid_or_stale_h1": 0,
     "eligible_patterns_found": 4,
     "top": [
@@ -239,7 +204,7 @@
     "note": "Observational tracking of selected top-ranked watches; no baseline, no proof of profitability, no live threshold adaptation."
   },
   "ai_review": {
-    "status": "no_new_qualified_candidate",
+    "status": "auto_quota_pacing",
     "engine_version": "2.4.3",
     "mode": "independent_ai_plus_legacy",
     "model": "@cf/qwen/qwen3-30b-a3b-fp8",
@@ -249,7 +214,18 @@
     "cooldown_skipped": 0,
     "sent": false,
     "sent_symbols": [],
-    "results": [],
+    "results": [
+      {
+        "status": "auto_quota_pacing",
+        "symbol": null,
+        "sent": false,
+        "latest": null,
+        "paper_trade": null,
+        "reason": null,
+        "error": null,
+        "delivery_commit_warning": false
+      }
+    ],
     "latest": null
   },
   "ai_learning": {
