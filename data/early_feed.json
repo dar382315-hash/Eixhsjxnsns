@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T07:15:26.687Z",
-  "generated_at_ms": 1791616526687,
+  "generated_at": "2026-10-10T07:25:26.403Z",
+  "generated_at_ms": 1791617126403,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
@@ -12,13 +12,13 @@
     "source": "bounded_cached_closed_1h_bars",
     "status": "partial_rolling_scan",
     "universe_checked": 380,
-    "batch_scanned": 11,
-    "rolling_scanned": 253,
+    "batch_scanned": 8,
+    "rolling_scanned": 251,
     "rolling_window_hours": 6,
-    "fresh_h1_coverage": 8,
-    "continuous_h1_coverage": 8,
+    "fresh_h1_coverage": 5,
+    "continuous_h1_coverage": 5,
     "invalid_or_stale_h1": 0,
-    "eligible_patterns_found": 15,
+    "eligible_patterns_found": 17,
     "top": [
       {
         "symbol": "WLDUSDT",
@@ -139,6 +139,27 @@
         ]
       },
       {
+        "symbol": "FILUSDT",
+        "price_at_snapshot": 1.1475,
+        "change_24h_pct": 4.93,
+        "spread_bps": 4.36,
+        "turnover_24h": 1500371.034481,
+        "h1_last_closed_ms": 1791612000000,
+        "h1_bars_updated_at_ms": 1791611494935,
+        "pattern_score": 3.134,
+        "status": "research_watch",
+        "confirmed": false,
+        "patterns": [
+          {
+            "type": "breakout_retest",
+            "phase": "watch_retest",
+            "level": 1.1685,
+            "volume_ratio": 1.18,
+            "breakout_candle_ms": 1791601200000
+          }
+        ]
+      },
+      {
         "symbol": "AEROUSDT",
         "price_at_snapshot": 0.8334,
         "change_24h_pct": 1.58,
@@ -180,27 +201,6 @@
             "range_prior8a_pct": 4.9,
             "range_prior8b_pct": 4.61,
             "lower_level": 0.3563
-          }
-        ]
-      },
-      {
-        "symbol": "GALAUSDT",
-        "price_at_snapshot": 0.002471,
-        "change_24h_pct": 9.19,
-        "spread_bps": 8.09,
-        "turnover_24h": 715462.4218013,
-        "h1_last_closed_ms": 1791612000000,
-        "h1_bars_updated_at_ms": 1791611371115,
-        "pattern_score": 2.775,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
-          {
-            "type": "breakout_retest",
-            "phase": "watch_retest",
-            "level": 0.002389,
-            "volume_ratio": 1.52,
-            "breakout_candle_ms": 1791597600000
           }
         ]
       }
