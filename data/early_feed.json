@@ -1,83 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T22:45:26.519Z",
-  "generated_at_ms": 1791672326519,
+  "generated_at": "2026-10-10T22:55:26.372Z",
+  "generated_at_ms": 1791672926372,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
-  "top": [
-    {
-      "symbol": "ARXUSDT",
-      "last_price": 0.2785,
-      "bid": 0.2779,
-      "ask": 0.2782,
-      "spread_bps": 10.789426362165885,
-      "turnover_24h": 461888.918002,
-      "relative_turnover": 0.22563415927326852,
-      "change_10m_pct": 2.164,
-      "change_30m_pct": 1.605,
-      "change_60m_pct": 1.089,
-      "change_24h_pct": 8.66,
-      "early_score": 6.966,
-      "phase": "early",
-      "status": "early_breakout_watch",
-      "confirmed": true,
-      "m5": {
-        "candle_start_ms": 1791672000000,
-        "interval_minutes": 5,
-        "candle_age_seconds": 26,
-        "closed_candle_change_pct": 0.794,
-        "turnover_vs_prev_12": 1.72,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.28172
-      },
-      "m15": {
-        "candle_start_ms": 1791671400000,
-        "interval_minutes": 15,
-        "candle_age_seconds": 26,
-        "closed_candle_change_pct": 2.269,
-        "turnover_vs_prev_12": 4.75,
-        "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.2767
-      }
-    },
-    {
-      "symbol": "AEROUSDT",
-      "last_price": 0.9447,
-      "bid": 0.9445,
-      "ask": 0.9448,
-      "spread_bps": 3.175779389191414,
-      "turnover_24h": 5750045.550158,
-      "relative_turnover": 1.2754640243500284,
-      "change_10m_pct": 0.897,
-      "change_30m_pct": 0.714,
-      "change_60m_pct": 1.789,
-      "change_24h_pct": 17.5,
-      "early_score": 0.184,
-      "phase": "early",
-      "status": "watch",
-      "confirmed": false,
-      "m5": {
-        "candle_start_ms": 1791672000000,
-        "interval_minutes": 5,
-        "candle_age_seconds": 27,
-        "closed_candle_change_pct": 0.339,
-        "turnover_vs_prev_12": 0.85,
-        "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.9444
-      },
-      "m15": {
-        "candle_start_ms": 1791671400000,
-        "interval_minutes": 15,
-        "candle_age_seconds": 27,
-        "closed_candle_change_pct": 0.595,
-        "turnover_vs_prev_12": 1.29,
-        "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.9444
-      }
-    }
-  ],
-  "confirmed_count": 1,
+  "top": [],
+  "confirmed_count": 0,
   "pattern_watch": {
     "engine_version": "2.3.0-shadow",
     "source": "bounded_cached_closed_1h_bars",
