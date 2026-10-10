@@ -1,44 +1,44 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T12:45:27.112Z",
-  "generated_at_ms": 1791636327112,
+  "generated_at": "2026-10-10T12:55:27.308Z",
+  "generated_at_ms": 1791636927308,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
   "top": [
     {
-      "symbol": "AEROUSDT",
-      "last_price": 0.9075,
-      "bid": 0.9072,
-      "ask": 0.9075,
-      "spread_bps": 3.3063316250616297,
-      "turnover_24h": 4088375.27919,
-      "relative_turnover": 0.9068755266652735,
-      "change_10m_pct": 1.159,
-      "change_30m_pct": 2.427,
-      "change_60m_pct": 5.942,
-      "change_24h_pct": 12.29,
-      "early_score": 5.046,
-      "phase": "early",
+      "symbol": "CAPUSDT",
+      "last_price": 0.09123,
+      "bid": 0.09135,
+      "ask": 0.09141,
+      "spread_bps": 6.5659881812217655,
+      "turnover_24h": 10508734.914832,
+      "relative_turnover": 1.9729769507995196,
+      "change_10m_pct": 1.153,
+      "change_30m_pct": 1.299,
+      "change_60m_pct": 4.43,
+      "change_24h_pct": 24.7,
+      "early_score": -2.89,
+      "phase": "continuation",
       "status": "watch",
       "confirmed": false,
       "m5": {
-        "candle_start_ms": 1791636000000,
+        "candle_start_ms": 1791636600000,
         "interval_minutes": 5,
         "candle_age_seconds": 27,
-        "closed_candle_change_pct": 0.155,
-        "turnover_vs_prev_12": 0.51,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.9072
+        "closed_candle_change_pct": 0.427,
+        "turnover_vs_prev_12": 1.56,
+        "broke_prev_12_high": true,
+        "resistance_prev_12_high": 0.09131
       },
       "m15": {
         "candle_start_ms": 1791635400000,
         "interval_minutes": 15,
-        "candle_age_seconds": 27,
-        "closed_candle_change_pct": 2.12,
-        "turnover_vs_prev_12": 1.28,
-        "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.8992
+        "candle_age_seconds": 627,
+        "closed_candle_change_pct": 0.377,
+        "turnover_vs_prev_12": 0.17,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.093
       }
     }
   ],
@@ -247,38 +247,46 @@
     "reward_rule": "+1 if gross +8% reached first; -1 if gross -4% reached first; 0 if neither in 24 completed future 1h bars",
     "assumed_cost_per_side_pct": 0.15,
     "actual_fill_verified": false,
-    "newly_recorded": 5,
-    "newly_evaluated": 3,
+    "newly_recorded": 6,
+    "newly_evaluated": 6,
     "newly_unscorable": 0,
     "newly_evaluated_7d": 0,
     "counts": {
-      "evaluated": 19,
+      "evaluated": 25,
       "pending": 61
     },
     "by_pattern": [
       {
         "pattern_type": "breakout_retest",
-        "n": 8,
+        "n": 9,
         "wins": 0,
         "losses": 7,
-        "neutral": 1,
-        "mean_net_pct": -3.595
+        "neutral": 2,
+        "mean_net_pct": -2.464
+      },
+      {
+        "pattern_type": "bull_flag",
+        "n": 1,
+        "wins": 0,
+        "losses": 1,
+        "neutral": 0,
+        "mean_net_pct": -4.288
       },
       {
         "pattern_type": "range_breakout",
-        "n": 2,
+        "n": 3,
         "wins": 0,
-        "losses": 1,
+        "losses": 2,
         "neutral": 1,
-        "mean_net_pct": -1.516
+        "mean_net_pct": -2.44
       },
       {
         "pattern_type": "volatility_squeeze",
-        "n": 9,
+        "n": 12,
         "wins": 4,
-        "losses": 2,
-        "neutral": 3,
-        "mean_net_pct": 2.843
+        "losses": 3,
+        "neutral": 5,
+        "mean_net_pct": 2.091
       }
     ],
     "goal_7d_rule": "+1 if gross +30% reached first; -1 if gross -12% reached first; 0 if neither within 168 complete future 1h bars",
