@@ -1,162 +1,166 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T20:55:26.961Z",
-  "generated_at_ms": 1791665726961,
+  "generated_at": "2026-10-10T21:05:26.732Z",
+  "generated_at_ms": 1791666326732,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
   "top": [
     {
       "symbol": "BRUSDT",
-      "last_price": 0.54377,
-      "bid": 0.54376,
-      "ask": 0.54407,
-      "spread_bps": 5.699419946131886,
-      "turnover_24h": 1067403.20432,
-      "relative_turnover": 0.25116710951639054,
-      "change_10m_pct": 0.919,
-      "change_30m_pct": 3.856,
-      "change_60m_pct": 4.346,
-      "change_24h_pct": 2.2800000000000002,
-      "early_score": 5.625,
+      "last_price": 0.55436,
+      "bid": 0.55519,
+      "ask": 0.55574,
+      "spread_bps": 9.90161396307689,
+      "turnover_24h": 1097741.89381,
+      "relative_turnover": 0.25830600596609066,
+      "change_10m_pct": 1.948,
+      "change_30m_pct": 5.122,
+      "change_60m_pct": 5.794,
+      "change_24h_pct": 5.43,
+      "early_score": 8.922,
       "phase": "early",
       "status": "early_breakout_watch",
       "confirmed": true,
       "m5": {
-        "candle_start_ms": 1791665400000,
+        "candle_start_ms": 1791666000000,
         "interval_minutes": 5,
         "candle_age_seconds": 27,
-        "closed_candle_change_pct": 0.044,
-        "turnover_vs_prev_12": 0.64,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.54455
+        "closed_candle_change_pct": 1.913,
+        "turnover_vs_prev_12": 4.44,
+        "broke_prev_12_high": true,
+        "resistance_prev_12_high": 0.54473
       },
       "m15": {
-        "candle_start_ms": 1791664200000,
+        "candle_start_ms": 1791665100000,
         "interval_minutes": 15,
-        "candle_age_seconds": 627,
-        "closed_candle_change_pct": 2.98,
-        "turnover_vs_prev_12": 1.65,
+        "candle_age_seconds": 327,
+        "closed_candle_change_pct": 0.21,
+        "turnover_vs_prev_12": 0.81,
         "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.527
+        "resistance_prev_12_high": 0.54281
       }
     },
     {
-      "symbol": "INJUSDT",
-      "last_price": 7.781,
-      "bid": 7.783,
-      "ask": 7.79,
-      "spread_bps": 8.98991844859651,
-      "turnover_24h": 2174474.75411,
-      "relative_turnover": 0.5277171147674303,
-      "change_10m_pct": 1.54,
-      "change_30m_pct": 2.126,
-      "change_60m_pct": 2.584,
-      "change_24h_pct": 13,
-      "early_score": 5.208,
+      "symbol": "SUSDT",
+      "last_price": 0.04766,
+      "bid": 0.04766,
+      "ask": 0.04771,
+      "spread_bps": 10.485477613505594,
+      "turnover_24h": 522689.404618,
+      "relative_turnover": 0.6835557223658153,
+      "change_10m_pct": 1.447,
+      "change_30m_pct": 2.539,
+      "change_60m_pct": 2.782,
+      "change_24h_pct": 7.290000000000001,
+      "early_score": 5.903,
       "phase": "early",
       "status": "watch",
       "confirmed": false,
       "m5": {
-        "candle_start_ms": 1791665400000,
+        "candle_start_ms": 1791666000000,
         "interval_minutes": 5,
         "candle_age_seconds": 27,
-        "closed_candle_change_pct": -0.013,
-        "turnover_vs_prev_12": 1.97,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 7.793
+        "closed_candle_change_pct": 0.549,
+        "turnover_vs_prev_12": 1.37,
+        "broke_prev_12_high": true,
+        "resistance_prev_12_high": 0.0474
       },
       "m15": {
-        "candle_start_ms": 1791664200000,
+        "candle_start_ms": 1791665100000,
         "interval_minutes": 15,
-        "candle_age_seconds": 627,
-        "closed_candle_change_pct": 0.866,
-        "turnover_vs_prev_12": 0.73,
+        "candle_age_seconds": 327,
+        "closed_candle_change_pct": 0.766,
+        "turnover_vs_prev_12": 0.35,
         "broke_prev_12_high": false,
-        "resistance_prev_12_high": 7.686
+        "resistance_prev_12_high": 0.04791
+      }
+    },
+    {
+      "symbol": "MONUSDT",
+      "last_price": 0.02551,
+      "bid": 0.0255,
+      "ask": 0.02551,
+      "spread_bps": 3.920799843169207,
+      "turnover_24h": 2605698.904277,
+      "relative_turnover": 0.26504732078904536,
+      "change_10m_pct": 0.91,
+      "change_30m_pct": 1.836,
+      "change_60m_pct": 2.204,
+      "change_24h_pct": 5.2,
+      "early_score": 4.214,
+      "phase": "early",
+      "status": "early_breakout_watch",
+      "confirmed": true,
+      "m5": {
+        "candle_start_ms": 1791666000000,
+        "interval_minutes": 5,
+        "candle_age_seconds": 27,
+        "closed_candle_change_pct": 0.789,
+        "turnover_vs_prev_12": 5.12,
+        "broke_prev_12_high": true,
+        "resistance_prev_12_high": 0.02553
+      },
+      "m15": {
+        "candle_start_ms": 1791665100000,
+        "interval_minutes": 15,
+        "candle_age_seconds": 327,
+        "closed_candle_change_pct": 1.117,
+        "turnover_vs_prev_12": 7.47,
+        "broke_prev_12_high": true,
+        "resistance_prev_12_high": 0.02515
+      }
+    },
+    {
+      "symbol": "CHIPUSDT",
+      "last_price": 0.06856,
+      "bid": 0.0685,
+      "ask": 0.06859,
+      "spread_bps": 13.130060544167025,
+      "turnover_24h": 4017082.016622,
+      "relative_turnover": 2.3444991875062895,
+      "change_10m_pct": 3.269,
+      "change_30m_pct": 3.612,
+      "change_60m_pct": 3.612,
+      "change_24h_pct": 35.68,
+      "early_score": -3.173,
+      "phase": "continuation",
+      "status": "watch",
+      "confirmed": false,
+      "m5": {
+        "candle_start_ms": 1791666000000,
+        "interval_minutes": 5,
+        "candle_age_seconds": 27,
+        "closed_candle_change_pct": -0.407,
+        "turnover_vs_prev_12": 0.57,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.06923
+      },
+      "m15": {
+        "candle_start_ms": 1791665100000,
+        "interval_minutes": 15,
+        "candle_age_seconds": 327,
+        "closed_candle_change_pct": 2.628,
+        "turnover_vs_prev_12": 0.47,
+        "broke_prev_12_high": true,
+        "resistance_prev_12_high": 0.06771
       }
     }
   ],
-  "confirmed_count": 1,
+  "confirmed_count": 2,
   "pattern_watch": {
     "engine_version": "2.3.0-shadow",
     "source": "bounded_cached_closed_1h_bars",
     "status": "partial_rolling_scan",
     "universe_checked": 380,
     "batch_scanned": 10,
-    "rolling_scanned": 253,
+    "rolling_scanned": 254,
     "rolling_window_hours": 6,
-    "fresh_h1_coverage": 6,
-    "continuous_h1_coverage": 6,
+    "fresh_h1_coverage": 8,
+    "continuous_h1_coverage": 8,
     "invalid_or_stale_h1": 0,
-    "eligible_patterns_found": 7,
+    "eligible_patterns_found": 3,
     "top": [
-      {
-        "symbol": "TIAUSDT",
-        "price_at_snapshot": 0.5611,
-        "change_24h_pct": 20,
-        "spread_bps": 7.13,
-        "turnover_24h": 2255160.723612,
-        "h1_last_closed_ms": 1791658800000,
-        "h1_bars_updated_at_ms": 1791657567655,
-        "pattern_score": 3.583,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
-          {
-            "type": "range_breakout",
-            "phase": "volume_confirmed",
-            "level": 0.5195,
-            "volume_ratio": 3.21,
-            "bar_close_pct": 4.504
-          }
-        ]
-      },
-      {
-        "symbol": "NEARUSDT",
-        "price_at_snapshot": 5.306,
-        "change_24h_pct": 12.58,
-        "spread_bps": 1.88,
-        "turnover_24h": 29510485.483575,
-        "h1_last_closed_ms": 1791658800000,
-        "h1_bars_updated_at_ms": 1791657567201,
-        "pattern_score": 3.281,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
-          {
-            "type": "volatility_squeeze",
-            "phase": "forming",
-            "level": 5.438,
-            "volume_ratio": 0.62,
-            "range_last8_pct": 4.05,
-            "range_prior8a_pct": 7.48,
-            "range_prior8b_pct": 8.35,
-            "lower_level": 5.222
-          }
-        ]
-      },
-      {
-        "symbol": "BRUSDT",
-        "price_at_snapshot": 0.52112,
-        "change_24h_pct": -0.8200000000000001,
-        "spread_bps": 6.91,
-        "turnover_24h": 979974.83703,
-        "h1_last_closed_ms": 1791658800000,
-        "h1_bars_updated_at_ms": 1791659367512,
-        "pattern_score": 3.223,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
-          {
-            "type": "range_breakout",
-            "phase": "volume_confirmed",
-            "level": 0.50147,
-            "volume_ratio": 2.35,
-            "bar_close_pct": 2.963
-          }
-        ]
-      },
       {
         "symbol": "VVVUSDT",
         "price_at_snapshot": 22.898,
@@ -203,49 +207,26 @@
         ]
       },
       {
-        "symbol": "OPUSDT",
-        "price_at_snapshot": 0.13906,
-        "change_24h_pct": 10.639999999999999,
-        "spread_bps": 2.16,
-        "turnover_24h": 4081786.7372924,
-        "h1_last_closed_ms": 1791658800000,
-        "h1_bars_updated_at_ms": 1791655775560,
-        "pattern_score": 2.99,
+        "symbol": "SHIBUSDT",
+        "price_at_snapshot": 0.000005493,
+        "change_24h_pct": 1.4000000000000001,
+        "spread_bps": 3.64,
+        "turnover_24h": 515768.3970973568,
+        "h1_last_closed_ms": 1791662400000,
+        "h1_bars_updated_at_ms": 1791662488636,
+        "pattern_score": 2.077,
         "status": "research_watch",
         "confirmed": false,
         "patterns": [
           {
             "type": "volatility_squeeze",
             "phase": "near_resistance",
-            "level": 0.14025,
-            "volume_ratio": 0.09,
-            "range_last8_pct": 3.65,
-            "range_prior8a_pct": 8.87,
-            "range_prior8b_pct": 14.88,
-            "lower_level": 0.13522
-          }
-        ]
-      },
-      {
-        "symbol": "STABLEUSDT",
-        "price_at_snapshot": 0.02726,
-        "change_24h_pct": 8,
-        "spread_bps": 11,
-        "turnover_24h": 882891.880543,
-        "h1_last_closed_ms": 1791658800000,
-        "h1_bars_updated_at_ms": 1791661776612,
-        "pattern_score": 2.337,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
-          {
-            "type": "bull_flag",
-            "phase": "forming",
-            "level": 0.028,
-            "volume_ratio": 0.24,
-            "pole_pct": 7.26,
-            "retracement_fraction": 0.415,
-            "flag_length_bars": 9
+            "level": 0.00000548,
+            "volume_ratio": 0.46,
+            "range_last8_pct": 0.9,
+            "range_prior8a_pct": 1.68,
+            "range_prior8b_pct": 2.07,
+            "lower_level": 0.00000543
           }
         ]
       }
@@ -308,18 +289,113 @@
     "note": "Observational tracking of selected top-ranked watches; no baseline, no proof of profitability, no live threshold adaptation."
   },
   "ai_review": {
-    "status": "no_new_qualified_candidate",
+    "status": "evaluated_silent",
     "engine_version": "2.4.3",
     "mode": "independent_ai_plus_legacy",
     "model": "@cf/qwen/qwen3-30b-a3b-fp8",
-    "prechecked": 0,
-    "market_prechecks": 0,
-    "model_attempts": 0,
+    "prechecked": 1,
+    "market_prechecks": 1,
+    "model_attempts": 1,
     "cooldown_skipped": 1,
     "sent": false,
     "sent_symbols": [],
-    "results": [],
-    "latest": null
+    "results": [
+      {
+        "status": "evaluated_silent",
+        "symbol": "MONUSDT",
+        "sent": false,
+        "latest": {
+          "symbol": "MONUSDT",
+          "at": "2026-10-10T21:05:27.103Z",
+          "verdict": "SKIP",
+          "reason_code": "NO_CLEAR_EDGE",
+          "risk_code": "NO_FUNDAMENTAL_CHECK",
+          "metrics": {
+            "ok": true,
+            "symbol": "MONUSDT",
+            "observed_at": "2026-10-10T21:05:29.103Z",
+            "price": 0.0255,
+            "bid": 0.0255,
+            "ask": 0.02551,
+            "spread_bps": 3.92,
+            "turnover_24h": 2653793,
+            "bid_depth_1pct_usdt": 211100,
+            "ask_depth_1pct_usdt": 200587,
+            "h1_closed_at": "2026-10-10T21:00:00.000Z",
+            "h1_resistance": 0.02505,
+            "h1_support": 0.02461,
+            "confirm_above": 0.0255683,
+            "stop_if_invalidated": 0.02461,
+            "target1": 0.02597,
+            "target2": null,
+            "upside1_pct": 1.57,
+            "upside2_pct": null,
+            "risk_pct": -3.75,
+            "reward_risk": 0.42,
+            "already_extended": false,
+            "condition_ready": false,
+            "early": {
+              "source": "early_confirmed",
+              "change_10m_pct": 0.91,
+              "change_30m_pct": 1.836,
+              "change_24h_pct": 5.2,
+              "vol5": 5.12,
+              "vol15": 7.47,
+              "patterns": []
+            }
+          },
+          "note": "Research-only. Price and technical targets mechanically computed; no independent news, unlock or FDV checks."
+        },
+        "paper_trade": {
+          "status": "not_qualified"
+        },
+        "reason": null,
+        "error": null,
+        "delivery_commit_warning": false
+      }
+    ],
+    "latest": {
+      "symbol": "MONUSDT",
+      "at": "2026-10-10T21:05:27.103Z",
+      "verdict": "SKIP",
+      "reason_code": "NO_CLEAR_EDGE",
+      "risk_code": "NO_FUNDAMENTAL_CHECK",
+      "metrics": {
+        "ok": true,
+        "symbol": "MONUSDT",
+        "observed_at": "2026-10-10T21:05:29.103Z",
+        "price": 0.0255,
+        "bid": 0.0255,
+        "ask": 0.02551,
+        "spread_bps": 3.92,
+        "turnover_24h": 2653793,
+        "bid_depth_1pct_usdt": 211100,
+        "ask_depth_1pct_usdt": 200587,
+        "h1_closed_at": "2026-10-10T21:00:00.000Z",
+        "h1_resistance": 0.02505,
+        "h1_support": 0.02461,
+        "confirm_above": 0.0255683,
+        "stop_if_invalidated": 0.02461,
+        "target1": 0.02597,
+        "target2": null,
+        "upside1_pct": 1.57,
+        "upside2_pct": null,
+        "risk_pct": -3.75,
+        "reward_risk": 0.42,
+        "already_extended": false,
+        "condition_ready": false,
+        "early": {
+          "source": "early_confirmed",
+          "change_10m_pct": 0.91,
+          "change_30m_pct": 1.836,
+          "change_24h_pct": 5.2,
+          "vol5": 5.12,
+          "vol15": 7.47,
+          "patterns": []
+        }
+      },
+      "note": "Research-only. Price and technical targets mechanically computed; no independent news, unlock or FDV checks."
+    }
   },
   "ai_learning": {
     "status": "research_only",
