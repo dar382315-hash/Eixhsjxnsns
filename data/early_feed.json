@@ -1,195 +1,90 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T20:05:26.640Z",
-  "generated_at_ms": 1791662726640,
+  "generated_at": "2026-10-10T20:15:26.852Z",
+  "generated_at_ms": 1791663326852,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
   "top": [
     {
-      "symbol": "ZKUSDT",
-      "last_price": 0.015685,
-      "bid": 0.015676,
-      "ask": 0.015695,
-      "spread_bps": 12.113098084218965,
-      "turnover_24h": 2049363.98691031,
-      "relative_turnover": 2.038722331789711,
-      "change_10m_pct": 2.083,
-      "change_30m_pct": 2.423,
-      "change_60m_pct": 3.826,
-      "change_24h_pct": 10.68,
-      "early_score": 8.353,
+      "symbol": "GRASSUSDT",
+      "last_price": 0.656,
+      "bid": 0.6561,
+      "ask": 0.6566,
+      "spread_bps": 7.61788679820134,
+      "turnover_24h": 1592508.82112,
+      "relative_turnover": 0.2608511233696411,
+      "change_10m_pct": 0.861,
+      "change_30m_pct": 0.861,
+      "change_60m_pct": 1.863,
+      "change_24h_pct": 1.09,
+      "early_score": 3.362,
       "phase": "early",
       "status": "watch",
       "confirmed": false,
       "m5": {
-        "candle_start_ms": 1791662400000,
+        "candle_start_ms": 1791663000000,
         "interval_minutes": 5,
-        "candle_age_seconds": 26,
-        "closed_candle_change_pct": 0.412,
-        "turnover_vs_prev_12": 0.81,
+        "candle_age_seconds": 27,
+        "closed_candle_change_pct": -0.183,
+        "turnover_vs_prev_12": 1.59,
         "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.015629
+        "resistance_prev_12_high": 0.6562
       },
       "m15": {
-        "candle_start_ms": 1791661500000,
-        "interval_minutes": 15,
-        "candle_age_seconds": 326,
-        "closed_candle_change_pct": -0.352,
-        "turnover_vs_prev_12": 2.13,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.015629
-      }
-    },
-    {
-      "symbol": "NIGHTUSDT",
-      "last_price": 0.0506,
-      "bid": 0.05059,
-      "ask": 0.05062,
-      "spread_bps": 5.928267957710761,
-      "turnover_24h": 3015294.568682,
-      "relative_turnover": 0.8494993020342622,
-      "change_10m_pct": 1.018,
-      "change_30m_pct": 0.897,
-      "change_60m_pct": 0.737,
-      "change_24h_pct": 10.77,
-      "early_score": 3.788,
-      "phase": "early",
-      "status": "early_breakout_watch",
-      "confirmed": true,
-      "m5": {
         "candle_start_ms": 1791662400000,
-        "interval_minutes": 5,
-        "candle_age_seconds": 26,
-        "closed_candle_change_pct": 1.154,
-        "turnover_vs_prev_12": 2.63,
+        "interval_minutes": 15,
+        "candle_age_seconds": 27,
+        "closed_candle_change_pct": 0.847,
+        "turnover_vs_prev_12": 0.76,
         "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.05046
-      },
-      "m15": {
-        "candle_start_ms": 1791661500000,
-        "interval_minutes": 15,
-        "candle_age_seconds": 326,
-        "closed_candle_change_pct": 0.14,
-        "turnover_vs_prev_12": 0.35,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.05265
+        "resistance_prev_12_high": 0.6537
       }
     },
     {
-      "symbol": "WUSDT",
-      "last_price": 0.017713,
-      "bid": 0.017742,
-      "ask": 0.017757,
-      "spread_bps": 8.450942280062906,
-      "turnover_24h": 1240552.4086541,
-      "relative_turnover": 1.3916480121860089,
-      "change_10m_pct": 0.917,
-      "change_30m_pct": -0.712,
-      "change_60m_pct": -1.32,
-      "change_24h_pct": 2.98,
-      "early_score": 3.359,
-      "phase": "early",
-      "status": "watch",
-      "confirmed": false,
-      "m5": {
-        "candle_start_ms": 1791662400000,
-        "interval_minutes": 5,
-        "candle_age_seconds": 26,
-        "closed_candle_change_pct": 1.038,
-        "turnover_vs_prev_12": 2.96,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.018088
-      },
-      "m15": {
-        "candle_start_ms": 1791661500000,
-        "interval_minutes": 15,
-        "candle_age_seconds": 326,
-        "closed_candle_change_pct": 0.347,
-        "turnover_vs_prev_12": 0.81,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.018088
-      }
-    },
-    {
-      "symbol": "CHIPUSDT",
-      "last_price": 0.06617,
-      "bid": 0.06606,
-      "ask": 0.06613,
-      "spread_bps": 10.590816249338168,
-      "turnover_24h": 3595638.864185,
-      "relative_turnover": 2.0985313122226485,
-      "change_10m_pct": 0.961,
-      "change_30m_pct": 4.139,
-      "change_60m_pct": 3.959,
-      "change_24h_pct": 32.18,
-      "early_score": -6.192,
+      "symbol": "STRKUSDT",
+      "last_price": 0.10095,
+      "bid": 0.1009,
+      "ask": 0.10096,
+      "spread_bps": 5.944714158326624,
+      "turnover_24h": 21662437.4985301,
+      "relative_turnover": 5.561326831473382,
+      "change_10m_pct": 0.91,
+      "change_30m_pct": -1.068,
+      "change_60m_pct": -0.316,
+      "change_24h_pct": 42.63,
+      "early_score": -14.533,
       "phase": "continuation",
       "status": "watch",
       "confirmed": false,
       "m5": {
-        "candle_start_ms": 1791662400000,
+        "candle_start_ms": 1791663000000,
         "interval_minutes": 5,
         "candle_age_seconds": 27,
-        "closed_candle_change_pct": 0.497,
-        "turnover_vs_prev_12": 1.22,
+        "closed_candle_change_pct": 0,
+        "turnover_vs_prev_12": 0.81,
         "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.06682
+        "resistance_prev_12_high": 0.10284
       },
       "m15": {
-        "candle_start_ms": 1791661500000,
-        "interval_minutes": 15,
-        "candle_age_seconds": 327,
-        "closed_candle_change_pct": 1.888,
-        "turnover_vs_prev_12": 0.85,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.06682
-      }
-    },
-    {
-      "symbol": "AEROUSDT",
-      "last_price": 0.9295,
-      "bid": 0.9296,
-      "ask": 0.9301,
-      "spread_bps": 5.377211378179878,
-      "turnover_24h": 4939393.206938,
-      "relative_turnover": 1.0956466835980494,
-      "change_10m_pct": 0.945,
-      "change_30m_pct": 1.629,
-      "change_60m_pct": 2.992,
-      "change_24h_pct": 16.900000000000002,
-      "early_score": 1.08,
-      "phase": "early",
-      "status": "early_breakout_watch",
-      "confirmed": true,
-      "m5": {
         "candle_start_ms": 1791662400000,
-        "interval_minutes": 5,
-        "candle_age_seconds": 27,
-        "closed_candle_change_pct": 0.431,
-        "turnover_vs_prev_12": 1.51,
-        "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.932
-      },
-      "m15": {
-        "candle_start_ms": 1791661500000,
         "interval_minutes": 15,
-        "candle_age_seconds": 327,
-        "closed_candle_change_pct": 0.476,
-        "turnover_vs_prev_12": 3.16,
-        "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.9261
+        "candle_age_seconds": 27,
+        "closed_candle_change_pct": 1.73,
+        "turnover_vs_prev_12": 0.87,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.10539
       }
     }
   ],
-  "confirmed_count": 2,
+  "confirmed_count": 0,
   "pattern_watch": {
     "engine_version": "2.3.0-shadow",
     "source": "bounded_cached_closed_1h_bars",
     "status": "partial_rolling_scan",
     "universe_checked": 380,
-    "batch_scanned": 11,
-    "rolling_scanned": 256,
+    "batch_scanned": 10,
+    "rolling_scanned": 255,
     "rolling_window_hours": 6,
     "fresh_h1_coverage": 8,
     "continuous_h1_coverage": 8,
@@ -242,27 +137,6 @@
         ]
       },
       {
-        "symbol": "ZKUSDT",
-        "price_at_snapshot": 0.015107,
-        "change_24h_pct": 6.419999999999999,
-        "spread_bps": 7.93,
-        "turnover_24h": 2006844.01560467,
-        "h1_last_closed_ms": 1791658800000,
-        "h1_bars_updated_at_ms": 1791658167065,
-        "pattern_score": 3.224,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
-          {
-            "type": "breakout_retest",
-            "phase": "watch_retest",
-            "level": 0.014833,
-            "volume_ratio": 0.73,
-            "breakout_candle_ms": 1791644400000
-          }
-        ]
-      },
-      {
         "symbol": "BRUSDT",
         "price_at_snapshot": 0.52112,
         "change_24h_pct": -0.8200000000000001,
@@ -280,6 +154,27 @@
             "level": 0.50147,
             "volume_ratio": 2.35,
             "bar_close_pct": 2.963
+          }
+        ]
+      },
+      {
+        "symbol": "POLUSDT",
+        "price_at_snapshot": 0.10206,
+        "change_24h_pct": 4.41,
+        "spread_bps": 1.96,
+        "turnover_24h": 1217228.404834,
+        "h1_last_closed_ms": 1791662400000,
+        "h1_bars_updated_at_ms": 1791661886902,
+        "pattern_score": 3.067,
+        "status": "research_watch",
+        "confirmed": false,
+        "patterns": [
+          {
+            "type": "breakout_retest",
+            "phase": "watch_retest",
+            "level": 0.10162,
+            "volume_ratio": 0.27,
+            "breakout_candle_ms": 1791644400000
           }
         ]
       },
@@ -389,7 +284,7 @@
     "note": "Observational tracking of selected top-ranked watches; no baseline, no proof of profitability, no live threshold adaptation."
   },
   "ai_review": {
-    "status": "auto_quota_pacing",
+    "status": "no_new_qualified_candidate",
     "engine_version": "2.4.3",
     "mode": "independent_ai_plus_legacy",
     "model": "@cf/qwen/qwen3-30b-a3b-fp8",
@@ -399,18 +294,7 @@
     "cooldown_skipped": 0,
     "sent": false,
     "sent_symbols": [],
-    "results": [
-      {
-        "status": "auto_quota_pacing",
-        "symbol": null,
-        "sent": false,
-        "latest": null,
-        "paper_trade": null,
-        "reason": null,
-        "error": null,
-        "delivery_commit_warning": false
-      }
-    ],
+    "results": [],
     "latest": null
   },
   "ai_learning": {
