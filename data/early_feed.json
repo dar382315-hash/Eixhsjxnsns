@@ -1,83 +1,48 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T18:45:26.598Z",
-  "generated_at_ms": 1791657926598,
+  "generated_at": "2026-10-10T18:55:26.769Z",
+  "generated_at_ms": 1791658526769,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
   "top": [
     {
-      "symbol": "SUSDT",
-      "last_price": 0.04748,
-      "bid": 0.04746,
-      "ask": 0.0475,
-      "spread_bps": 8.42459983150766,
-      "turnover_24h": 461838.123582,
-      "relative_turnover": 0.6039764521568707,
-      "change_10m_pct": 4.605,
-      "change_30m_pct": 5.793,
-      "change_60m_pct": 5.699,
-      "change_24h_pct": 7.64,
-      "early_score": 15.789,
+      "symbol": "BRUSDT",
+      "last_price": 0.51046,
+      "bid": 0.5102,
+      "ask": 0.51063,
+      "spread_bps": 8.424517304547111,
+      "turnover_24h": 976572.77952,
+      "relative_turnover": 0.22979410336386025,
+      "change_10m_pct": 1.035,
+      "change_30m_pct": 0.133,
+      "change_60m_pct": 2.338,
+      "change_24h_pct": -1.9300000000000002,
+      "early_score": 3.259,
       "phase": "early",
-      "status": "early_breakout_watch",
-      "confirmed": true,
-      "m5": {
-        "candle_start_ms": 1791657600000,
-        "interval_minutes": 5,
-        "candle_age_seconds": 27,
-        "closed_candle_change_pct": 1.714,
-        "turnover_vs_prev_12": 13.01,
-        "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.04673
-      },
-      "m15": {
-        "candle_start_ms": 1791657000000,
-        "interval_minutes": 15,
-        "candle_age_seconds": 27,
-        "closed_candle_change_pct": 5.184,
-        "turnover_vs_prev_12": 21.68,
-        "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.04561
-      }
-    },
-    {
-      "symbol": "STRKUSDT",
-      "last_price": 0.10463,
-      "bid": 0.1045,
-      "ask": 0.10462,
-      "spread_bps": 11.476664116297723,
-      "turnover_24h": 18878483.9856952,
-      "relative_turnover": 4.846611538258855,
-      "change_10m_pct": 4.109,
-      "change_30m_pct": 9.423,
-      "change_60m_pct": 10.009,
-      "change_24h_pct": 47.3,
-      "early_score": -3.571,
-      "phase": "continuation",
       "status": "watch",
       "confirmed": false,
       "m5": {
-        "candle_start_ms": 1791657600000,
+        "candle_start_ms": 1791658200000,
         "interval_minutes": 5,
         "candle_age_seconds": 27,
-        "closed_candle_change_pct": 0.507,
-        "turnover_vs_prev_12": 2.22,
+        "closed_candle_change_pct": 0.379,
+        "turnover_vs_prev_12": 0.37,
         "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.10443
+        "resistance_prev_12_high": 0.51651
       },
       "m15": {
         "candle_start_ms": 1791657000000,
         "interval_minutes": 15,
-        "candle_age_seconds": 27,
-        "closed_candle_change_pct": 0.822,
-        "turnover_vs_prev_12": 1.1,
+        "candle_age_seconds": 627,
+        "closed_candle_change_pct": 0.297,
+        "turnover_vs_prev_12": 0.93,
         "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.10443
+        "resistance_prev_12_high": 0.51651
       }
     }
   ],
-  "confirmed_count": 1,
+  "confirmed_count": 0,
   "pattern_watch": {
     "engine_version": "2.3.0-shadow",
     "source": "bounded_cached_closed_1h_bars",
@@ -295,7 +260,7 @@
     "newly_unscorable": 0,
     "newly_evaluated_7d": 0,
     "counts": {
-      "evaluated": 31,
+      "evaluated": 37,
       "pending": 61
     },
     "by_pattern": [
@@ -309,27 +274,27 @@
       },
       {
         "pattern_type": "bull_flag",
-        "n": 1,
-        "wins": 0,
+        "n": 2,
+        "wins": 1,
         "losses": 1,
         "neutral": 0,
-        "mean_net_pct": -4.288
+        "mean_net_pct": 1.694
       },
       {
         "pattern_type": "range_breakout",
-        "n": 3,
+        "n": 4,
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "neutral": 1,
-        "mean_net_pct": -2.44
+        "mean_net_pct": -2.902
       },
       {
         "pattern_type": "volatility_squeeze",
-        "n": 17,
-        "wins": 4,
+        "n": 21,
+        "wins": 6,
         "losses": 3,
-        "neutral": 10,
-        "mean_net_pct": 2.098
+        "neutral": 12,
+        "mean_net_pct": 2.668
       }
     ],
     "goal_7d_rule": "+1 if gross +30% reached first; -1 if gross -12% reached first; 0 if neither within 168 complete future 1h bars",
