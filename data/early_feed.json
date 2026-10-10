@@ -1,22 +1,93 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T20:25:26.666Z",
-  "generated_at_ms": 1791663926666,
+  "generated_at": "2026-10-10T20:35:27.139Z",
+  "generated_at_ms": 1791664527139,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
-  "top": [],
-  "confirmed_count": 0,
+  "top": [
+    {
+      "symbol": "VVVUSDT",
+      "last_price": 22.898,
+      "bid": 22.9,
+      "ask": 22.91,
+      "spread_bps": 4.365858982755539,
+      "turnover_24h": 6104503.63503,
+      "relative_turnover": 0.8511924521642021,
+      "change_10m_pct": 1.328,
+      "change_30m_pct": 1.471,
+      "change_60m_pct": 1.512,
+      "change_24h_pct": 5.27,
+      "early_score": 4.956,
+      "phase": "early",
+      "status": "early_breakout_watch",
+      "confirmed": true,
+      "m5": {
+        "candle_start_ms": 1791664200000,
+        "interval_minutes": 5,
+        "candle_age_seconds": 27,
+        "closed_candle_change_pct": 0.355,
+        "turnover_vs_prev_12": 0.53,
+        "broke_prev_12_high": true,
+        "resistance_prev_12_high": 22.847
+      },
+      "m15": {
+        "candle_start_ms": 1791663300000,
+        "interval_minutes": 15,
+        "candle_age_seconds": 327,
+        "closed_candle_change_pct": 1.103,
+        "turnover_vs_prev_12": 1.9,
+        "broke_prev_12_high": true,
+        "resistance_prev_12_high": 22.649
+      }
+    },
+    {
+      "symbol": "CHIPUSDT",
+      "last_price": 0.06617,
+      "bid": 0.06608,
+      "ask": 0.06619,
+      "spread_bps": 16.632645346639297,
+      "turnover_24h": 3899160.818224,
+      "relative_turnover": 2.2756765563800365,
+      "change_10m_pct": 1.131,
+      "change_30m_pct": 0,
+      "change_60m_pct": 4.139,
+      "change_24h_pct": 31.730000000000004,
+      "early_score": -8.357,
+      "phase": "continuation",
+      "status": "watch",
+      "confirmed": false,
+      "m5": {
+        "candle_start_ms": 1791664200000,
+        "interval_minutes": 5,
+        "candle_age_seconds": 27,
+        "closed_candle_change_pct": -0.602,
+        "turnover_vs_prev_12": 0.32,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.06746
+      },
+      "m15": {
+        "candle_start_ms": 1791663300000,
+        "interval_minutes": 15,
+        "candle_age_seconds": 327,
+        "closed_candle_change_pct": 2.706,
+        "turnover_vs_prev_12": 1.36,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.06695
+      }
+    }
+  ],
+  "confirmed_count": 1,
   "pattern_watch": {
     "engine_version": "2.3.0-shadow",
     "source": "bounded_cached_closed_1h_bars",
     "status": "partial_rolling_scan",
     "universe_checked": 380,
-    "batch_scanned": 10,
-    "rolling_scanned": 258,
+    "batch_scanned": 8,
+    "rolling_scanned": 259,
     "rolling_window_hours": 6,
-    "fresh_h1_coverage": 7,
-    "continuous_h1_coverage": 7,
+    "fresh_h1_coverage": 6,
+    "continuous_h1_coverage": 6,
     "invalid_or_stale_h1": 0,
     "eligible_patterns_found": 6,
     "top": [
@@ -213,7 +284,7 @@
     "note": "Observational tracking of selected top-ranked watches; no baseline, no proof of profitability, no live threshold adaptation."
   },
   "ai_review": {
-    "status": "no_new_qualified_candidate",
+    "status": "auto_quota_pacing",
     "engine_version": "2.4.3",
     "mode": "independent_ai_plus_legacy",
     "model": "@cf/qwen/qwen3-30b-a3b-fp8",
@@ -223,7 +294,18 @@
     "cooldown_skipped": 0,
     "sent": false,
     "sent_symbols": [],
-    "results": [],
+    "results": [
+      {
+        "status": "auto_quota_pacing",
+        "symbol": null,
+        "sent": false,
+        "latest": null,
+        "paper_trade": null,
+        "reason": null,
+        "error": null,
+        "delivery_commit_warning": false
+      }
+    ],
     "latest": null
   },
   "ai_learning": {
