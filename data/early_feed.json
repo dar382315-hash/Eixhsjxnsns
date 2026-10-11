@@ -1,114 +1,79 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-11T18:05:26.943Z",
-  "generated_at_ms": 1791741926943,
+  "generated_at": "2026-10-11T18:15:26.934Z",
+  "generated_at_ms": 1791742526934,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
   "top": [
     {
-      "symbol": "PLUMEUSDT",
-      "last_price": 0.02137,
-      "bid": 0.02136,
-      "ask": 0.02138,
-      "spread_bps": 9.35891436593317,
-      "turnover_24h": 1498524.917545,
-      "relative_turnover": 0.9081239832477479,
-      "change_10m_pct": 1.665,
-      "change_30m_pct": 1.859,
-      "change_60m_pct": 4.961,
-      "change_24h_pct": 11.709999999999999,
-      "early_score": 5.966,
-      "phase": "early",
-      "status": "watch",
-      "confirmed": false,
-      "m5": {
-        "candle_start_ms": 1791741600000,
-        "interval_minutes": 5,
-        "candle_age_seconds": 27,
-        "closed_candle_change_pct": 1.141,
-        "turnover_vs_prev_12": 1.02,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.02128
-      },
-      "m15": {
-        "candle_start_ms": 1791740700000,
-        "interval_minutes": 15,
-        "candle_age_seconds": 327,
-        "closed_candle_change_pct": 0.574,
-        "turnover_vs_prev_12": 1.41,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.02128
-      }
-    },
-    {
       "symbol": "MANTAUSDT",
-      "last_price": 0.07673,
-      "bid": 0.0766,
-      "ask": 0.07675,
-      "spread_bps": 19.56309096837266,
-      "turnover_24h": 761990.7967308,
-      "relative_turnover": 5.567132251373746,
-      "change_10m_pct": 1.468,
-      "change_30m_pct": -0.441,
-      "change_60m_pct": 1.845,
-      "change_24h_pct": 15.7,
-      "early_score": 4.121,
-      "phase": "early",
-      "status": "watch",
-      "confirmed": false,
-      "m5": {
-        "candle_start_ms": 1791741600000,
-        "interval_minutes": 5,
-        "candle_age_seconds": 27,
-        "closed_candle_change_pct": 1.944,
-        "turnover_vs_prev_12": 1.08,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.07784
-      },
-      "m15": {
-        "candle_start_ms": 1791740700000,
-        "interval_minutes": 15,
-        "candle_age_seconds": 327,
-        "closed_candle_change_pct": -1.741,
-        "turnover_vs_prev_12": 1.59,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.07784
-      }
-    },
-    {
-      "symbol": "MEGAUSDT",
-      "last_price": 0.04791,
-      "bid": 0.04791,
-      "ask": 0.04794,
-      "spread_bps": 6.2597809076687,
-      "turnover_24h": 1757709.41317,
-      "relative_turnover": 0.976909079704589,
-      "change_10m_pct": 1.033,
-      "change_30m_pct": 2.088,
-      "change_60m_pct": 1.828,
-      "change_24h_pct": 13.13,
-      "early_score": 3.919,
+      "last_price": 0.07902,
+      "bid": 0.07895,
+      "ask": 0.07913,
+      "spread_bps": 22.77327935222667,
+      "turnover_24h": 784888.4134185,
+      "relative_turnover": 5.7344230649749015,
+      "change_10m_pct": 2.984,
+      "change_30m_pct": 2.146,
+      "change_60m_pct": 4.097,
+      "change_24h_pct": 19.28,
+      "early_score": 6.933,
       "phase": "early",
       "status": "early_breakout_watch",
       "confirmed": true,
       "m5": {
-        "candle_start_ms": 1791741600000,
+        "candle_start_ms": 1791742200000,
         "interval_minutes": 5,
         "candle_age_seconds": 27,
-        "closed_candle_change_pct": 0.4,
-        "turnover_vs_prev_12": 4.63,
-        "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.04762
+        "closed_candle_change_pct": -0.214,
+        "turnover_vs_prev_12": 1.72,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.08088
       },
       "m15": {
-        "candle_start_ms": 1791740700000,
+        "candle_start_ms": 1791741600000,
         "interval_minutes": 15,
-        "candle_age_seconds": 327,
-        "closed_candle_change_pct": 1.17,
-        "turnover_vs_prev_12": 0.75,
+        "candle_age_seconds": 27,
+        "closed_candle_change_pct": 4.866,
+        "turnover_vs_prev_12": 2.66,
+        "broke_prev_12_high": true,
+        "resistance_prev_12_high": 0.07784
+      }
+    },
+    {
+      "symbol": "SUSDT",
+      "last_price": 0.06482,
+      "bid": 0.06475,
+      "ask": 0.06482,
+      "spread_bps": 10.804970286331805,
+      "turnover_24h": 5191436.729178,
+      "relative_turnover": 7.545428548915387,
+      "change_10m_pct": 1.838,
+      "change_30m_pct": -0.598,
+      "change_60m_pct": 0.637,
+      "change_24h_pct": 44.330000000000005,
+      "early_score": -13.039,
+      "phase": "continuation",
+      "status": "watch",
+      "confirmed": false,
+      "m5": {
+        "candle_start_ms": 1791742200000,
+        "interval_minutes": 5,
+        "candle_age_seconds": 27,
+        "closed_candle_change_pct": 1.038,
+        "turnover_vs_prev_12": 0.71,
         "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.04833
+        "resistance_prev_12_high": 0.06679
+      },
+      "m15": {
+        "candle_start_ms": 1791741600000,
+        "interval_minutes": 15,
+        "candle_age_seconds": 27,
+        "closed_candle_change_pct": 0.218,
+        "turnover_vs_prev_12": 0.44,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.06679
       }
     }
   ],
@@ -118,13 +83,13 @@
     "source": "bounded_cached_closed_1h_bars",
     "status": "partial_rolling_scan",
     "universe_checked": 380,
-    "batch_scanned": 10,
-    "rolling_scanned": 256,
+    "batch_scanned": 11,
+    "rolling_scanned": 264,
     "rolling_window_hours": 6,
-    "fresh_h1_coverage": 8,
-    "continuous_h1_coverage": 8,
+    "fresh_h1_coverage": 10,
+    "continuous_h1_coverage": 10,
     "invalid_or_stale_h1": 0,
-    "eligible_patterns_found": 8,
+    "eligible_patterns_found": 6,
     "top": [
       {
         "symbol": "UNIUSDT",
@@ -190,27 +155,6 @@
         ]
       },
       {
-        "symbol": "MEGAUSDT",
-        "price_at_snapshot": 0.04742,
-        "change_24h_pct": 12.13,
-        "spread_bps": 4.22,
-        "turnover_24h": 1681547.17199,
-        "h1_last_closed_ms": 1791738000000,
-        "h1_bars_updated_at_ms": 1791739167023,
-        "pattern_score": 3.485,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
-          {
-            "type": "range_breakout",
-            "phase": "volume_confirmed",
-            "level": 0.04631,
-            "volume_ratio": 3.11,
-            "bar_close_pct": 0.691
-          }
-        ]
-      },
-      {
         "symbol": "WUSDT",
         "price_at_snapshot": 0.019013,
         "change_24h_pct": 7.32,
@@ -249,27 +193,6 @@
             "level": 0.12814,
             "volume_ratio": 4.55,
             "bar_close_pct": 0.827
-          }
-        ]
-      },
-      {
-        "symbol": "PLUMEUSDT",
-        "price_at_snapshot": 0.02098,
-        "change_24h_pct": 10.07,
-        "spread_bps": 9.53,
-        "turnover_24h": 1468953.137425,
-        "h1_last_closed_ms": 1791738000000,
-        "h1_bars_updated_at_ms": 1791739166559,
-        "pattern_score": 3.073,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
-          {
-            "type": "breakout_retest",
-            "phase": "watch_retest",
-            "level": 0.02008,
-            "volume_ratio": 1.01,
-            "breakout_candle_ms": 1791723600000
           }
         ]
       },
@@ -353,77 +276,17 @@
     "note": "Observational tracking of selected top-ranked watches; no baseline, no proof of profitability, no live threshold adaptation."
   },
   "ai_review": {
-    "status": "evaluated_silent",
+    "status": "auto_quota_pacing",
     "engine_version": "2.4.3",
     "mode": "independent_ai_plus_legacy",
     "model": "@cf/qwen/qwen3-30b-a3b-fp8",
-    "prechecked": 1,
-    "market_prechecks": 1,
-    "model_attempts": 1,
+    "prechecked": 0,
+    "market_prechecks": 0,
+    "model_attempts": 0,
     "cooldown_skipped": 0,
     "sent": false,
     "sent_symbols": [],
     "results": [
-      {
-        "status": "evaluated_silent",
-        "symbol": "MEGAUSDT",
-        "sent": false,
-        "latest": {
-          "symbol": "MEGAUSDT",
-          "at": "2026-10-11T18:05:27.340Z",
-          "verdict": "SKIP",
-          "reason_code": "NO_CLEAR_EDGE",
-          "risk_code": "NO_FUNDAMENTAL_CHECK",
-          "metrics": {
-            "ok": true,
-            "symbol": "MEGAUSDT",
-            "observed_at": "2026-10-11T18:05:30.174Z",
-            "price": 0.04747,
-            "bid": 0.04744,
-            "ask": 0.04747,
-            "spread_bps": 6.32,
-            "turnover_24h": 1773905,
-            "bid_depth_1pct_usdt": 26678,
-            "ask_depth_1pct_usdt": 17023,
-            "h1_closed_at": "2026-10-11T18:00:00.000Z",
-            "h1_resistance": 0.04833,
-            "h1_support": 0.04312,
-            "confirm_above": 0.0484025,
-            "stop_if_invalidated": 0.04312,
-            "target1": null,
-            "target2": null,
-            "upside1_pct": null,
-            "upside2_pct": null,
-            "risk_pct": -10.91,
-            "reward_risk": null,
-            "already_extended": false,
-            "condition_ready": false,
-            "early": {
-              "source": "early_confirmed",
-              "change_10m_pct": 1.033,
-              "change_30m_pct": 2.088,
-              "change_24h_pct": 13.13,
-              "vol5": 4.63,
-              "vol15": 0.75,
-              "patterns": [
-                {
-                  "type": "range_breakout",
-                  "phase": "volume_confirmed",
-                  "volume_ratio": 3.11,
-                  "level": 0.04631
-                }
-              ]
-            }
-          },
-          "note": "Research-only. Price and technical targets mechanically computed; no independent news, unlock or FDV checks."
-        },
-        "paper_trade": {
-          "status": "not_qualified"
-        },
-        "reason": null,
-        "error": null,
-        "delivery_commit_warning": false
-      },
       {
         "status": "auto_quota_pacing",
         "symbol": null,
@@ -435,55 +298,7 @@
         "delivery_commit_warning": false
       }
     ],
-    "latest": {
-      "symbol": "MEGAUSDT",
-      "at": "2026-10-11T18:05:27.340Z",
-      "verdict": "SKIP",
-      "reason_code": "NO_CLEAR_EDGE",
-      "risk_code": "NO_FUNDAMENTAL_CHECK",
-      "metrics": {
-        "ok": true,
-        "symbol": "MEGAUSDT",
-        "observed_at": "2026-10-11T18:05:30.174Z",
-        "price": 0.04747,
-        "bid": 0.04744,
-        "ask": 0.04747,
-        "spread_bps": 6.32,
-        "turnover_24h": 1773905,
-        "bid_depth_1pct_usdt": 26678,
-        "ask_depth_1pct_usdt": 17023,
-        "h1_closed_at": "2026-10-11T18:00:00.000Z",
-        "h1_resistance": 0.04833,
-        "h1_support": 0.04312,
-        "confirm_above": 0.0484025,
-        "stop_if_invalidated": 0.04312,
-        "target1": null,
-        "target2": null,
-        "upside1_pct": null,
-        "upside2_pct": null,
-        "risk_pct": -10.91,
-        "reward_risk": null,
-        "already_extended": false,
-        "condition_ready": false,
-        "early": {
-          "source": "early_confirmed",
-          "change_10m_pct": 1.033,
-          "change_30m_pct": 2.088,
-          "change_24h_pct": 13.13,
-          "vol5": 4.63,
-          "vol15": 0.75,
-          "patterns": [
-            {
-              "type": "range_breakout",
-              "phase": "volume_confirmed",
-              "volume_ratio": 3.11,
-              "level": 0.04631
-            }
-          ]
-        }
-      },
-      "note": "Research-only. Price and technical targets mechanically computed; no independent news, unlock or FDV checks."
-    }
+    "latest": null
   },
   "ai_learning": {
     "status": "research_only",
