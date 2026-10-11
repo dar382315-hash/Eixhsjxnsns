@@ -1,25 +1,117 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-11T12:25:26.187Z",
-  "generated_at_ms": 1791721526187,
+  "generated_at": "2026-10-11T12:35:29.025Z",
+  "generated_at_ms": 1791722129025,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
-  "top": [],
-  "confirmed_count": 0,
+  "top": [
+    {
+      "symbol": "WALUSDT",
+      "last_price": 0.03842,
+      "bid": 0.0384,
+      "ask": 0.03843,
+      "spread_bps": 7.809449433815502,
+      "turnover_24h": 1806646.201546,
+      "relative_turnover": 4.861964286596027,
+      "change_10m_pct": 0.893,
+      "change_30m_pct": 0.235,
+      "change_60m_pct": 1.506,
+      "change_24h_pct": 3.09,
+      "early_score": 5.28,
+      "phase": "early",
+      "status": "early_breakout_watch",
+      "confirmed": true,
+      "m5": {
+        "candle_start_ms": 1791721800000,
+        "interval_minutes": 5,
+        "candle_age_seconds": 28,
+        "closed_candle_change_pct": -0.622,
+        "turnover_vs_prev_12": 0.35,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.0391
+      },
+      "m15": {
+        "candle_start_ms": 1791720900000,
+        "interval_minutes": 15,
+        "candle_age_seconds": 328,
+        "closed_candle_change_pct": 0.784,
+        "turnover_vs_prev_12": 10.59,
+        "broke_prev_12_high": true,
+        "resistance_prev_12_high": 0.03852
+      }
+    },
+    {
+      "symbol": "PLUMEUSDT",
+      "last_price": 0.0197,
+      "bid": 0.01969,
+      "ask": 0.0197,
+      "spread_bps": 5.077430820004871,
+      "turnover_24h": 1290792.711198,
+      "relative_turnover": 0.7822357871503908,
+      "change_10m_pct": 0.87,
+      "change_30m_pct": 1.967,
+      "change_60m_pct": 2.926,
+      "change_24h_pct": 5.01,
+      "early_score": 4.194,
+      "phase": "early",
+      "status": "early_breakout_watch",
+      "confirmed": true,
+      "m5": {
+        "candle_start_ms": 1791721800000,
+        "interval_minutes": 5,
+        "candle_age_seconds": 29,
+        "closed_candle_change_pct": 0.818,
+        "turnover_vs_prev_12": 3.92,
+        "broke_prev_12_high": true,
+        "resistance_prev_12_high": 0.01961
+      },
+      "m15": {
+        "candle_start_ms": 1791720900000,
+        "interval_minutes": 15,
+        "candle_age_seconds": 329,
+        "closed_candle_change_pct": 0.051,
+        "turnover_vs_prev_12": 0.86,
+        "broke_prev_12_high": true,
+        "resistance_prev_12_high": 0.01956
+      }
+    }
+  ],
+  "confirmed_count": 2,
   "pattern_watch": {
     "engine_version": "2.3.0-shadow",
     "source": "bounded_cached_closed_1h_bars",
     "status": "partial_rolling_scan",
     "universe_checked": 380,
-    "batch_scanned": 11,
-    "rolling_scanned": 253,
+    "batch_scanned": 8,
+    "rolling_scanned": 245,
     "rolling_window_hours": 6,
-    "fresh_h1_coverage": 11,
-    "continuous_h1_coverage": 11,
+    "fresh_h1_coverage": 5,
+    "continuous_h1_coverage": 5,
     "invalid_or_stale_h1": 0,
-    "eligible_patterns_found": 1,
+    "eligible_patterns_found": 2,
     "top": [
+      {
+        "symbol": "GRASSUSDT",
+        "price_at_snapshot": 0.708,
+        "change_24h_pct": 9.969999999999999,
+        "spread_bps": 1.41,
+        "turnover_24h": 2349033.79904,
+        "h1_last_closed_ms": 1791720000000,
+        "h1_bars_updated_at_ms": 1791720566846,
+        "pattern_score": 3.358,
+        "status": "research_watch",
+        "confirmed": false,
+        "patterns": [
+          {
+            "type": "breakout_retest",
+            "phase": "watch_retest",
+            "level": 0.6958,
+            "volume_ratio": 0.64,
+            "breakout_candle_ms": 1791705600000
+          }
+        ]
+      },
       {
         "symbol": "ZROUSDT",
         "price_at_snapshot": 2.0896,
@@ -100,7 +192,7 @@
     "note": "Observational tracking of selected top-ranked watches; no baseline, no proof of profitability, no live threshold adaptation."
   },
   "ai_review": {
-    "status": "no_new_qualified_candidate",
+    "status": "auto_quota_pacing",
     "engine_version": "2.4.3",
     "mode": "independent_ai_plus_legacy",
     "model": "@cf/qwen/qwen3-30b-a3b-fp8",
@@ -110,7 +202,18 @@
     "cooldown_skipped": 0,
     "sent": false,
     "sent_symbols": [],
-    "results": [],
+    "results": [
+      {
+        "status": "auto_quota_pacing",
+        "symbol": null,
+        "sent": false,
+        "latest": null,
+        "paper_trade": null,
+        "reason": null,
+        "error": null,
+        "delivery_commit_warning": false
+      }
+    ],
     "latest": null
   },
   "ai_learning": {
