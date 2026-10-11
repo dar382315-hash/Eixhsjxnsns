@@ -1,79 +1,44 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-11T07:55:26.575Z",
-  "generated_at_ms": 1791705326575,
+  "generated_at": "2026-10-11T08:05:26.803Z",
+  "generated_at_ms": 1791705926803,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
   "top": [
     {
-      "symbol": "BATUSDT",
-      "last_price": 0.15153,
-      "bid": 0.15149,
-      "ask": 0.15165,
-      "spread_bps": 10.556178663323447,
-      "turnover_24h": 1514271.9493061,
-      "relative_turnover": 4.2342606188383565,
-      "change_10m_pct": 2.089,
-      "change_30m_pct": 4.604,
-      "change_60m_pct": 4.137,
-      "change_24h_pct": 11.73,
-      "early_score": 10.971,
-      "phase": "early",
-      "status": "watch",
-      "confirmed": false,
-      "m5": {
-        "candle_start_ms": 1791705000000,
-        "interval_minutes": 5,
-        "candle_age_seconds": 26,
-        "closed_candle_change_pct": 0.543,
-        "turnover_vs_prev_12": 1.22,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.15183
-      },
-      "m15": {
-        "candle_start_ms": 1791703800000,
-        "interval_minutes": 15,
-        "candle_age_seconds": 626,
-        "closed_candle_change_pct": 1.122,
-        "turnover_vs_prev_12": 0.65,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.15108
-      }
-    },
-    {
-      "symbol": "MAGICUSDT",
-      "last_price": 0.12257,
-      "bid": 0.12257,
-      "ask": 0.12274,
-      "spread_bps": 13.860013860014144,
-      "turnover_24h": 3117036.137207,
-      "relative_turnover": 6.798273696440899,
-      "change_10m_pct": 2.974,
-      "change_30m_pct": 1.348,
-      "change_60m_pct": 8.316,
-      "change_24h_pct": 16.73,
-      "early_score": 8.378,
+      "symbol": "GRASSUSDT",
+      "last_price": 0.685,
+      "bid": 0.6845,
+      "ask": 0.685,
+      "spread_bps": 7.301935012779204,
+      "turnover_24h": 1660722.45688,
+      "relative_turnover": 0.27232310165464063,
+      "change_10m_pct": 0.854,
+      "change_30m_pct": 1.361,
+      "change_60m_pct": 1.286,
+      "change_24h_pct": 5.16,
+      "early_score": 3.7,
       "phase": "early",
       "status": "early_breakout_watch",
       "confirmed": true,
       "m5": {
-        "candle_start_ms": 1791705000000,
+        "candle_start_ms": 1791705600000,
         "interval_minutes": 5,
         "candle_age_seconds": 27,
-        "closed_candle_change_pct": 1.568,
-        "turnover_vs_prev_12": 2.28,
+        "closed_candle_change_pct": 0.809,
+        "turnover_vs_prev_12": 2.19,
         "broke_prev_12_high": true,
-        "resistance_prev_12_high": 0.12296
+        "resistance_prev_12_high": 0.6837
       },
       "m15": {
-        "candle_start_ms": 1791703800000,
+        "candle_start_ms": 1791704700000,
         "interval_minutes": 15,
-        "candle_age_seconds": 627,
-        "closed_candle_change_pct": -3.684,
-        "turnover_vs_prev_12": 0.92,
+        "candle_age_seconds": 327,
+        "closed_candle_change_pct": 0.384,
+        "turnover_vs_prev_12": 0.8,
         "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.12296
+        "resistance_prev_12_high": 0.6825
       }
     }
   ],
@@ -83,23 +48,44 @@
     "source": "bounded_cached_closed_1h_bars",
     "status": "partial_rolling_scan",
     "universe_checked": 380,
-    "batch_scanned": 11,
-    "rolling_scanned": 250,
+    "batch_scanned": 10,
+    "rolling_scanned": 257,
     "rolling_window_hours": 6,
-    "fresh_h1_coverage": 10,
-    "continuous_h1_coverage": 10,
+    "fresh_h1_coverage": 8,
+    "continuous_h1_coverage": 8,
     "invalid_or_stale_h1": 0,
     "eligible_patterns_found": 3,
     "top": [
       {
-        "symbol": "BATUSDT",
-        "price_at_snapshot": 0.14678,
-        "change_24h_pct": 6.61,
-        "spread_bps": 10.21,
-        "turnover_24h": 1517138.052564,
+        "symbol": "MAGICUSDT",
+        "price_at_snapshot": 0.12257,
+        "change_24h_pct": 16.73,
+        "spread_bps": 13.86,
+        "turnover_24h": 3117036.137207,
         "h1_last_closed_ms": 1791702000000,
-        "h1_bars_updated_at_ms": 1791700169435,
-        "pattern_score": 3.08,
+        "h1_bars_updated_at_ms": 1791704973264,
+        "pattern_score": 3.656,
+        "status": "research_watch",
+        "confirmed": false,
+        "patterns": [
+          {
+            "type": "range_breakout",
+            "phase": "volume_confirmed",
+            "level": 0.11269,
+            "volume_ratio": 3.55,
+            "bar_close_pct": 1.509
+          }
+        ]
+      },
+      {
+        "symbol": "BATUSDT",
+        "price_at_snapshot": 0.15153,
+        "change_24h_pct": 11.73,
+        "spread_bps": 10.56,
+        "turnover_24h": 1514271.9493061,
+        "h1_last_closed_ms": 1791702000000,
+        "h1_bars_updated_at_ms": 1791704366904,
+        "pattern_score": 3.076,
         "status": "research_watch",
         "confirmed": false,
         "patterns": [
@@ -107,7 +93,7 @@
             "type": "breakout_retest",
             "phase": "watch_retest",
             "level": 0.14208,
-            "volume_ratio": 0.52,
+            "volume_ratio": 1.08,
             "breakout_candle_ms": 1791691200000
           }
         ]
@@ -130,30 +116,6 @@
             "level": 0.249,
             "volume_ratio": 0.83,
             "bar_close_pct": 0.522
-          }
-        ]
-      },
-      {
-        "symbol": "STXUSDT",
-        "price_at_snapshot": 0.3977,
-        "change_24h_pct": 0.76,
-        "spread_bps": 2.52,
-        "turnover_24h": 1064744.08783,
-        "h1_last_closed_ms": 1791698400000,
-        "h1_bars_updated_at_ms": 1791697169177,
-        "pattern_score": 2.403,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
-          {
-            "type": "volatility_squeeze",
-            "phase": "forming",
-            "level": 0.4043,
-            "volume_ratio": 0.22,
-            "range_last8_pct": 1.6,
-            "range_prior8a_pct": 4.51,
-            "range_prior8b_pct": 7.36,
-            "lower_level": 0.3979
           }
         ]
       }
@@ -216,17 +178,70 @@
     "note": "Observational tracking of selected top-ranked watches; no baseline, no proof of profitability, no live threshold adaptation."
   },
   "ai_review": {
-    "status": "deterministic_rejection",
+    "status": "evaluated_silent",
     "engine_version": "2.4.3",
     "mode": "independent_ai_plus_legacy",
     "model": "@cf/qwen/qwen3-30b-a3b-fp8",
-    "prechecked": 1,
-    "market_prechecks": 1,
-    "model_attempts": 0,
+    "prechecked": 2,
+    "market_prechecks": 2,
+    "model_attempts": 1,
     "cooldown_skipped": 0,
     "sent": false,
     "sent_symbols": [],
     "results": [
+      {
+        "status": "evaluated_silent",
+        "symbol": "GRASSUSDT",
+        "sent": false,
+        "latest": {
+          "symbol": "GRASSUSDT",
+          "at": "2026-10-11T08:05:27.174Z",
+          "verdict": "SKIP",
+          "reason_code": "NO_CLEAR_EDGE",
+          "risk_code": "NO_FUNDAMENTAL_CHECK",
+          "metrics": {
+            "ok": true,
+            "symbol": "GRASSUSDT",
+            "observed_at": "2026-10-11T08:05:29.206Z",
+            "price": 0.6856,
+            "bid": 0.6856,
+            "ask": 0.6861,
+            "spread_bps": 7.29,
+            "turnover_24h": 1651832,
+            "bid_depth_1pct_usdt": 210944,
+            "ask_depth_1pct_usdt": 206508,
+            "h1_closed_at": "2026-10-11T08:00:00.000Z",
+            "h1_resistance": 0.6958,
+            "h1_support": 0.6622,
+            "confirm_above": 0.69684,
+            "stop_if_invalidated": 0.6622,
+            "target1": null,
+            "target2": null,
+            "upside1_pct": null,
+            "upside2_pct": null,
+            "risk_pct": -4.97,
+            "reward_risk": null,
+            "already_extended": false,
+            "condition_ready": false,
+            "early": {
+              "source": "early_confirmed",
+              "change_10m_pct": 0.854,
+              "change_30m_pct": 1.361,
+              "change_24h_pct": 5.16,
+              "vol5": 2.19,
+              "vol15": 0.8,
+              "patterns": []
+            }
+          },
+          "note": "Research-only. Price and technical targets mechanically computed; no independent news, unlock or FDV checks."
+        },
+        "paper_trade": {
+          "status": "not_qualified"
+        },
+        "reason": null,
+        "error": null,
+        "delivery_commit_warning": false
+      },
       {
         "status": "deterministic_rejection",
         "symbol": "MAGICUSDT",
@@ -238,7 +253,48 @@
         "delivery_commit_warning": false
       }
     ],
-    "latest": null
+    "latest": {
+      "symbol": "GRASSUSDT",
+      "at": "2026-10-11T08:05:27.174Z",
+      "verdict": "SKIP",
+      "reason_code": "NO_CLEAR_EDGE",
+      "risk_code": "NO_FUNDAMENTAL_CHECK",
+      "metrics": {
+        "ok": true,
+        "symbol": "GRASSUSDT",
+        "observed_at": "2026-10-11T08:05:29.206Z",
+        "price": 0.6856,
+        "bid": 0.6856,
+        "ask": 0.6861,
+        "spread_bps": 7.29,
+        "turnover_24h": 1651832,
+        "bid_depth_1pct_usdt": 210944,
+        "ask_depth_1pct_usdt": 206508,
+        "h1_closed_at": "2026-10-11T08:00:00.000Z",
+        "h1_resistance": 0.6958,
+        "h1_support": 0.6622,
+        "confirm_above": 0.69684,
+        "stop_if_invalidated": 0.6622,
+        "target1": null,
+        "target2": null,
+        "upside1_pct": null,
+        "upside2_pct": null,
+        "risk_pct": -4.97,
+        "reward_risk": null,
+        "already_extended": false,
+        "condition_ready": false,
+        "early": {
+          "source": "early_confirmed",
+          "change_10m_pct": 0.854,
+          "change_30m_pct": 1.361,
+          "change_24h_pct": 5.16,
+          "vol5": 2.19,
+          "vol15": 0.8,
+          "patterns": []
+        }
+      },
+      "note": "Research-only. Price and technical targets mechanically computed; no independent news, unlock or FDV checks."
+    }
   },
   "ai_learning": {
     "status": "research_only",
