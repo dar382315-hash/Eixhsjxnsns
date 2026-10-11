@@ -1,44 +1,149 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-11T11:45:27.624Z",
-  "generated_at_ms": 1791719127624,
+  "generated_at": "2026-10-11T11:55:27.647Z",
+  "generated_at_ms": 1791719727647,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
   "top": [
     {
-      "symbol": "FLUIDUSDT",
-      "last_price": 2.1942,
-      "bid": 2.1914,
-      "ask": 2.1942,
-      "spread_bps": 12.769062385991132,
-      "turnover_24h": 561928.294966,
-      "relative_turnover": 1.057330086673509,
-      "change_10m_pct": 0.971,
-      "change_30m_pct": -0.114,
-      "change_60m_pct": 2.811,
-      "change_24h_pct": 6.09,
-      "early_score": 3.032,
+      "symbol": "MAGICUSDT",
+      "last_price": 0.12272,
+      "bid": 0.12278,
+      "ask": 0.12291,
+      "spread_bps": 10.582441287802116,
+      "turnover_24h": 2569014.548895,
+      "relative_turnover": 5.603035468551268,
+      "change_10m_pct": 2.403,
+      "change_30m_pct": 0.008,
+      "change_60m_pct": -2.711,
+      "change_24h_pct": 5.510000000000001,
+      "early_score": 8.911,
       "phase": "early",
       "status": "watch",
       "confirmed": false,
       "m5": {
-        "candle_start_ms": 1791718800000,
+        "candle_start_ms": 1791719400000,
         "interval_minutes": 5,
-        "candle_age_seconds": 28,
-        "closed_candle_change_pct": 0.511,
-        "turnover_vs_prev_12": 0.57,
+        "candle_age_seconds": 27,
+        "closed_candle_change_pct": 2.08,
+        "turnover_vs_prev_12": 1.15,
         "broke_prev_12_high": false,
-        "resistance_prev_12_high": 2.238
+        "resistance_prev_12_high": 0.12701
       },
       "m15": {
         "candle_start_ms": 1791718200000,
         "interval_minutes": 15,
-        "candle_age_seconds": 28,
-        "closed_candle_change_pct": 0.917,
-        "turnover_vs_prev_12": 1.23,
+        "candle_age_seconds": 627,
+        "closed_candle_change_pct": -1.607,
+        "turnover_vs_prev_12": 1.37,
         "broke_prev_12_high": false,
-        "resistance_prev_12_high": 2.238
+        "resistance_prev_12_high": 0.13329
+      }
+    },
+    {
+      "symbol": "MONUSDT",
+      "last_price": 0.02565,
+      "bid": 0.02565,
+      "ask": 0.02567,
+      "spread_bps": 7.794232268121273,
+      "turnover_24h": 3596630.54827,
+      "relative_turnover": 0.36735971302210335,
+      "change_10m_pct": 0.905,
+      "change_30m_pct": 1.948,
+      "change_60m_pct": 2.518,
+      "change_24h_pct": 3.85,
+      "early_score": 4.226,
+      "phase": "early",
+      "status": "watch",
+      "confirmed": false,
+      "m5": {
+        "candle_start_ms": 1791719400000,
+        "interval_minutes": 5,
+        "candle_age_seconds": 27,
+        "closed_candle_change_pct": -0.582,
+        "turnover_vs_prev_12": 2.87,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.02579
+      },
+      "m15": {
+        "candle_start_ms": 1791718200000,
+        "interval_minutes": 15,
+        "candle_age_seconds": 627,
+        "closed_candle_change_pct": 0.634,
+        "turnover_vs_prev_12": 0.87,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.02571
+      }
+    },
+    {
+      "symbol": "WLDUSDT",
+      "last_price": 0.5535,
+      "bid": 0.5533,
+      "ask": 0.5535,
+      "spread_bps": 3.6140224069385254,
+      "turnover_24h": 11226501.591658,
+      "relative_turnover": 0.9249897443618419,
+      "change_10m_pct": 1.059,
+      "change_30m_pct": 1.004,
+      "change_60m_pct": 1.653,
+      "change_24h_pct": 1.34,
+      "early_score": 3.994,
+      "phase": "early",
+      "status": "watch",
+      "confirmed": false,
+      "m5": {
+        "candle_start_ms": 1791719400000,
+        "interval_minutes": 5,
+        "candle_age_seconds": 27,
+        "closed_candle_change_pct": 0.018,
+        "turnover_vs_prev_12": 0.36,
+        "broke_prev_12_high": true,
+        "resistance_prev_12_high": 0.5541
+      },
+      "m15": {
+        "candle_start_ms": 1791718200000,
+        "interval_minutes": 15,
+        "candle_age_seconds": 627,
+        "closed_candle_change_pct": 0.146,
+        "turnover_vs_prev_12": 0.93,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.5524
+      }
+    },
+    {
+      "symbol": "AEROUSDT",
+      "last_price": 0.9846,
+      "bid": 0.9849,
+      "ask": 0.9852,
+      "spread_bps": 3.0455306837213034,
+      "turnover_24h": 8596353.976146,
+      "relative_turnover": 1.8419463651561399,
+      "change_10m_pct": 1.13,
+      "change_30m_pct": 1.862,
+      "change_60m_pct": 1.652,
+      "change_24h_pct": 14.879999999999999,
+      "early_score": 3.782,
+      "phase": "early",
+      "status": "watch",
+      "confirmed": false,
+      "m5": {
+        "candle_start_ms": 1791719400000,
+        "interval_minutes": 5,
+        "candle_age_seconds": 28,
+        "closed_candle_change_pct": 0.651,
+        "turnover_vs_prev_12": 0.74,
+        "broke_prev_12_high": true,
+        "resistance_prev_12_high": 0.9832
+      },
+      "m15": {
+        "candle_start_ms": 1791718200000,
+        "interval_minutes": 15,
+        "candle_age_seconds": 628,
+        "closed_candle_change_pct": 0.796,
+        "turnover_vs_prev_12": 0.44,
+        "broke_prev_12_high": false,
+        "resistance_prev_12_high": 0.9931
       }
     }
   ],
@@ -179,21 +284,21 @@
       {
         "verdict": "SKIP",
         "state": "evaluated",
-        "n": 27
+        "n": 29
       },
       {
         "verdict": "SKIP",
         "state": "pending",
-        "n": 16
+        "n": 15
       }
     ],
     "by_verdict_24h": [
       {
         "verdict": "SKIP",
-        "n": 27,
+        "n": 29,
         "wins": 9,
-        "losses": 9,
-        "hypothetical_mean_net_pct": 0.952
+        "losses": 11,
+        "hypothetical_mean_net_pct": 0.591
       }
     ],
     "evaluation_definition": "24h +8/-4 and 7d +30/-12 evaluated from Bybit ask snapshot, not conditional entry fills. Does NOT measure actual strategy P&L. Costs assumed 0.15% per side. Only contiguous complete H1 bars. No performance claim."
