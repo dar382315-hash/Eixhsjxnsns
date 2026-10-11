@@ -1,114 +1,44 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-11T02:35:29.723Z",
-  "generated_at_ms": 1791686129723,
+  "generated_at": "2026-10-11T02:45:26.790Z",
+  "generated_at_ms": 1791686726790,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
   "top": [
     {
-      "symbol": "ZKUSDT",
-      "last_price": 0.015879,
-      "bid": 0.015885,
-      "ask": 0.015899,
-      "spread_bps": 8.809463881198166,
-      "turnover_24h": 2237206.62628775,
-      "relative_turnover": 2.1708643020568092,
-      "change_10m_pct": 1.192,
-      "change_30m_pct": -0.738,
-      "change_60m_pct": 2.611,
-      "change_24h_pct": 11.360000000000001,
-      "early_score": 4.656,
+      "symbol": "MEGAUSDT",
+      "last_price": 0.04474,
+      "bid": 0.0447,
+      "ask": 0.04473,
+      "spread_bps": 6.709158000671419,
+      "turnover_24h": 845978.820272,
+      "relative_turnover": 0.47018260502514725,
+      "change_10m_pct": 1.821,
+      "change_30m_pct": 1.636,
+      "change_60m_pct": 3.517,
+      "change_24h_pct": 6.93,
+      "early_score": 6.222,
       "phase": "early",
       "status": "watch",
       "confirmed": false,
       "m5": {
-        "candle_start_ms": 1791685800000,
+        "candle_start_ms": 1791686400000,
         "interval_minutes": 5,
-        "candle_age_seconds": 28,
-        "closed_candle_change_pct": 1.604,
-        "turnover_vs_prev_12": 0.11,
+        "candle_age_seconds": 27,
+        "closed_candle_change_pct": 0.857,
+        "turnover_vs_prev_12": 1.03,
         "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.016168
+        "resistance_prev_12_high": 0.04507
       },
       "m15": {
-        "candle_start_ms": 1791684900000,
-        "interval_minutes": 15,
-        "candle_age_seconds": 328,
-        "closed_candle_change_pct": 0.863,
-        "turnover_vs_prev_12": 0.3,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.016168
-      }
-    },
-    {
-      "symbol": "TIAUSDT",
-      "last_price": 0.6122,
-      "bid": 0.6122,
-      "ask": 0.6123,
-      "spread_bps": 1.6333197223354674,
-      "turnover_24h": 4961033.061695,
-      "relative_turnover": 2.9941453695264224,
-      "change_10m_pct": 0.857,
-      "change_30m_pct": -1.083,
-      "change_60m_pct": 0.823,
-      "change_24h_pct": 26.3,
-      "early_score": -4.879,
-      "phase": "continuation",
-      "status": "watch",
-      "confirmed": false,
-      "m5": {
         "candle_start_ms": 1791685800000,
-        "interval_minutes": 5,
-        "candle_age_seconds": 29,
-        "closed_candle_change_pct": 0.261,
-        "turnover_vs_prev_12": 0.27,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.633
-      },
-      "m15": {
-        "candle_start_ms": 1791684900000,
         "interval_minutes": 15,
-        "candle_age_seconds": 329,
-        "closed_candle_change_pct": 1.861,
-        "turnover_vs_prev_12": 0.67,
+        "candle_age_seconds": 27,
+        "closed_candle_change_pct": 1.154,
+        "turnover_vs_prev_12": 1.64,
         "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.633
-      }
-    },
-    {
-      "symbol": "STRKUSDT",
-      "last_price": 0.11711,
-      "bid": 0.11705,
-      "ask": 0.11714,
-      "spread_bps": 7.686066868781149,
-      "turnover_24h": 26291402.4354182,
-      "relative_turnover": 5.458895265157007,
-      "change_10m_pct": 1.175,
-      "change_30m_pct": 1.57,
-      "change_60m_pct": 9.787,
-      "change_24h_pct": 57.089999999999996,
-      "early_score": -22.248,
-      "phase": "continuation",
-      "status": "watch",
-      "confirmed": false,
-      "m5": {
-        "candle_start_ms": 1791685800000,
-        "interval_minutes": 5,
-        "candle_age_seconds": 30,
-        "closed_candle_change_pct": 1.569,
-        "turnover_vs_prev_12": 0.49,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.1194
-      },
-      "m15": {
-        "candle_start_ms": 1791684900000,
-        "interval_minutes": 15,
-        "candle_age_seconds": 330,
-        "closed_candle_change_pct": 0.459,
-        "turnover_vs_prev_12": 0.53,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.1194
+        "resistance_prev_12_high": 0.04507
       }
     }
   ],
@@ -121,11 +51,32 @@
     "batch_scanned": 11,
     "rolling_scanned": 251,
     "rolling_window_hours": 6,
-    "fresh_h1_coverage": 8,
-    "continuous_h1_coverage": 8,
+    "fresh_h1_coverage": 7,
+    "continuous_h1_coverage": 7,
     "invalid_or_stale_h1": 0,
     "eligible_patterns_found": 15,
     "top": [
+      {
+        "symbol": "ZKUSDT",
+        "price_at_snapshot": 0.015879,
+        "change_24h_pct": 11.360000000000001,
+        "spread_bps": 8.81,
+        "turnover_24h": 2237206.62628775,
+        "h1_last_closed_ms": 1791684000000,
+        "h1_bars_updated_at_ms": 1791685767402,
+        "pattern_score": 3.563,
+        "status": "research_watch",
+        "confirmed": false,
+        "patterns": [
+          {
+            "type": "range_breakout",
+            "phase": "volume_confirmed",
+            "level": 0.015773,
+            "volume_ratio": 2.99,
+            "bar_close_pct": 2.301
+          }
+        ]
+      },
       {
         "symbol": "WALUSDT",
         "price_at_snapshot": 0.03799,
@@ -234,29 +185,6 @@
             "range_prior8a_pct": 2.82,
             "range_prior8b_pct": 5.51,
             "lower_level": 1.2483
-          }
-        ]
-      },
-      {
-        "symbol": "ZKUSDT",
-        "price_at_snapshot": 0.015985,
-        "change_24h_pct": 13.81,
-        "spread_bps": 12.51,
-        "turnover_24h": 2201283.62867601,
-        "h1_last_closed_ms": 1791680400000,
-        "h1_bars_updated_at_ms": 1791682167657,
-        "pattern_score": 2.719,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
-          {
-            "type": "bull_flag",
-            "phase": "forming",
-            "level": 0.015773,
-            "volume_ratio": 0.57,
-            "pole_pct": 12.37,
-            "retracement_fraction": 0.395,
-            "flag_length_bars": 5
           }
         ]
       },
