@@ -1,47 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-11T02:45:26.790Z",
-  "generated_at_ms": 1791686726790,
+  "generated_at": "2026-10-11T02:55:26.283Z",
+  "generated_at_ms": 1791687326283,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
-  "top": [
-    {
-      "symbol": "MEGAUSDT",
-      "last_price": 0.04474,
-      "bid": 0.0447,
-      "ask": 0.04473,
-      "spread_bps": 6.709158000671419,
-      "turnover_24h": 845978.820272,
-      "relative_turnover": 0.47018260502514725,
-      "change_10m_pct": 1.821,
-      "change_30m_pct": 1.636,
-      "change_60m_pct": 3.517,
-      "change_24h_pct": 6.93,
-      "early_score": 6.222,
-      "phase": "early",
-      "status": "watch",
-      "confirmed": false,
-      "m5": {
-        "candle_start_ms": 1791686400000,
-        "interval_minutes": 5,
-        "candle_age_seconds": 27,
-        "closed_candle_change_pct": 0.857,
-        "turnover_vs_prev_12": 1.03,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.04507
-      },
-      "m15": {
-        "candle_start_ms": 1791685800000,
-        "interval_minutes": 15,
-        "candle_age_seconds": 27,
-        "closed_candle_change_pct": 1.154,
-        "turnover_vs_prev_12": 1.64,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.04507
-      }
-    }
-  ],
+  "top": [],
   "confirmed_count": 0,
   "pattern_watch": {
     "engine_version": "2.3.0-shadow",
@@ -341,14 +305,14 @@
     "status": "research_only",
     "adaptive_weights_enabled": false,
     "enables_trading": false,
-    "newly_evaluated_24h": 1,
+    "newly_evaluated_24h": 2,
     "newly_evaluated_7d": 0,
     "newly_unscorable": 0,
     "states": [
       {
         "verdict": "SKIP",
         "state": "evaluated",
-        "n": 21
+        "n": 23
       },
       {
         "verdict": "SKIP",
@@ -359,10 +323,10 @@
     "by_verdict_24h": [
       {
         "verdict": "SKIP",
-        "n": 21,
-        "wins": 7,
+        "n": 23,
+        "wins": 9,
         "losses": 6,
-        "hypothetical_mean_net_pct": 1.178
+        "hypothetical_mean_net_pct": 1.743
       }
     ],
     "evaluation_definition": "24h +8/-4 and 7d +30/-12 evaluated from Bybit ask snapshot, not conditional entry fills. Does NOT measure actual strategy P&L. Costs assumed 0.15% per side. Only contiguous complete H1 bars. No performance claim."
