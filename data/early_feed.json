@@ -1,47 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-11T20:55:27.724Z",
-  "generated_at_ms": 1791752127724,
+  "generated_at": "2026-10-11T21:05:26.716Z",
+  "generated_at_ms": 1791752726716,
   "source": "Bybit V5 / Cloudflare D1",
   "universe_checked": 380,
   "screening_method": "10m/30m/60m changes plus closed 5m/15m candles for top five",
-  "top": [
-    {
-      "symbol": "GRASSUSDT",
-      "last_price": 0.796,
-      "bid": 0.7958,
-      "ask": 0.7963,
-      "spread_bps": 6.281012499215577,
-      "turnover_24h": 5667953.73331,
-      "relative_turnover": 0.9294236579360652,
-      "change_10m_pct": 1.686,
-      "change_30m_pct": 4.435,
-      "change_60m_pct": 1.544,
-      "change_24h_pct": 21.6,
-      "early_score": 1.623,
-      "phase": "early",
-      "status": "watch",
-      "confirmed": false,
-      "m5": {
-        "candle_start_ms": 1791751800000,
-        "interval_minutes": 5,
-        "candle_age_seconds": 28,
-        "closed_candle_change_pct": 0.152,
-        "turnover_vs_prev_12": 3.23,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.793
-      },
-      "m15": {
-        "candle_start_ms": 1791750600000,
-        "interval_minutes": 15,
-        "candle_age_seconds": 628,
-        "closed_candle_change_pct": 1.918,
-        "turnover_vs_prev_12": 0.67,
-        "broke_prev_12_high": false,
-        "resistance_prev_12_high": 0.793
-      }
-    }
-  ],
+  "top": [],
   "confirmed_count": 0,
   "pattern_watch": {
     "engine_version": "2.3.0-shadow",
@@ -51,11 +15,32 @@
     "batch_scanned": 9,
     "rolling_scanned": 256,
     "rolling_window_hours": 6,
-    "fresh_h1_coverage": 4,
-    "continuous_h1_coverage": 4,
+    "fresh_h1_coverage": 8,
+    "continuous_h1_coverage": 8,
     "invalid_or_stale_h1": 0,
-    "eligible_patterns_found": 8,
+    "eligible_patterns_found": 6,
     "top": [
+      {
+        "symbol": "GRASSUSDT",
+        "price_at_snapshot": 0.796,
+        "change_24h_pct": 21.6,
+        "spread_bps": 6.28,
+        "turnover_24h": 5667953.73331,
+        "h1_last_closed_ms": 1791748800000,
+        "h1_bars_updated_at_ms": 1791748769700,
+        "pattern_score": 3.992,
+        "status": "research_watch",
+        "confirmed": false,
+        "patterns": [
+          {
+            "type": "range_breakout",
+            "phase": "volume_confirmed",
+            "level": 0.7684,
+            "volume_ratio": 1.87,
+            "bar_close_pct": 1.848
+          }
+        ]
+      },
       {
         "symbol": "BTCUSDT",
         "price_at_snapshot": 83679.3,
@@ -74,27 +59,6 @@
             "level": 83256.1,
             "volume_ratio": 0.4,
             "breakout_candle_ms": 1791730800000
-          }
-        ]
-      },
-      {
-        "symbol": "AVAXUSDT",
-        "price_at_snapshot": 10.847,
-        "change_24h_pct": 3.5999999999999996,
-        "spread_bps": 0.92,
-        "turnover_24h": 5266459.625989,
-        "h1_last_closed_ms": 1791745200000,
-        "h1_bars_updated_at_ms": 1791743978608,
-        "pattern_score": 3.713,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
-          {
-            "type": "breakout_retest",
-            "phase": "watch_retest",
-            "level": 10.839,
-            "volume_ratio": 0.36,
-            "breakout_candle_ms": 1791734400000
           }
         ]
       },
@@ -144,51 +108,6 @@
             "level": 0.3683,
             "volume_ratio": 0.83,
             "breakout_candle_ms": 1791730800000
-          }
-        ]
-      },
-      {
-        "symbol": "CAKEUSDT",
-        "price_at_snapshot": 2.318,
-        "change_24h_pct": 3.3000000000000003,
-        "spread_bps": 8.63,
-        "turnover_24h": 1750535.305836,
-        "h1_last_closed_ms": 1791745200000,
-        "h1_bars_updated_at_ms": 1791744568832,
-        "pattern_score": 3.158,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
-          {
-            "type": "breakout_retest",
-            "phase": "watch_retest",
-            "level": 2.269,
-            "volume_ratio": 1.14,
-            "breakout_candle_ms": 1791730800000
-          }
-        ]
-      },
-      {
-        "symbol": "ARBUSDT",
-        "price_at_snapshot": 0.19786,
-        "change_24h_pct": 6.069999999999999,
-        "spread_bps": 2.53,
-        "turnover_24h": 5523537.9260798,
-        "h1_last_closed_ms": 1791745200000,
-        "h1_bars_updated_at_ms": 1791743371254,
-        "pattern_score": 3.118,
-        "status": "research_watch",
-        "confirmed": false,
-        "patterns": [
-          {
-            "type": "volatility_squeeze",
-            "phase": "forming",
-            "level": 0.2028,
-            "volume_ratio": 0.3,
-            "range_last8_pct": 3.34,
-            "range_prior8a_pct": 6.7,
-            "range_prior8b_pct": 6.2,
-            "lower_level": 0.19613
           }
         ]
       },
